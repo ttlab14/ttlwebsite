@@ -10,7 +10,7 @@ const Detail = () => {
         <div className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
           <img
             className="w-full h-full object-contain"
-            src="/images/Portfolio Details/SignLang/signlang1.png"
+            src="/images/PortfolioDetails/SignLang/signlang1.png"
             alt=""
           />
         </div>
@@ -78,7 +78,7 @@ const Detail = () => {
         <div className="w-full sm:h-72">
           <img
             className="w-full h-full object-contain"
-            src="/images/Portfolio Details/SignLang/space2.png"
+            src="/images/PortfolioDetails/SignLang/space2.png"
             alt=""
           />
         </div>
@@ -86,12 +86,12 @@ const Detail = () => {
       <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="/images/Portfolio Details/SignLang/signlang3.png"
+          src="/images/PortfolioDetails/SignLang/signlang3.png"
           alt=""
         />
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="/images/Portfolio Details/SignLang/signlang4.png"
+          src="/images/PortfolioDetails/SignLang/signlang4.png"
           alt=""
         />
       </div>
@@ -99,12 +99,12 @@ const Detail = () => {
       <div className="flex sm:flex-row flex-col gap-5 items-center">
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="/images/Portfolio Details/SignLang/signlang2.png"
+          src="/images/PortfolioDetails/SignLang/signlang2.png"
           alt=""
         />
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="/images/Portfolio Details/SignLang/signlang5.png"
+          src="/images/PortfolioDetails/SignLang/signlang5.png"
           alt=""
         />
       </div>

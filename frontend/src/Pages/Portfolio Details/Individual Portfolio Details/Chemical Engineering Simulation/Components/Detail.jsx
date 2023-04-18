@@ -10,7 +10,7 @@ const Detail = () => {
         <div className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
           <img
             className="w-full h-full object-contain"
-            src="/images/Portfolio Details/ChemEng/cover_chemengg.png"
+            src="/images/PortfolioDetails/ChemEng/cover_chemengg.png"
             alt=""
           />
         </div>

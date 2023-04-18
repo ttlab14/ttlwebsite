@@ -10,7 +10,7 @@ const Detail = () => {
         <div className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
           <img
             className="w-full h-full object-contain"
-            src="/images/Portfolio Details/DCL/voctivlogo.png"
+            src="/images/PortfolioDetails/DCL/voctivlogo.png"
             alt=""
             style={{ width: "600px" }}
           />

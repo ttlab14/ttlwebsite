@@ -10,7 +10,7 @@ const Detail = () => {
         <div className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
           <img
             className="w-full h-full object-contain"
-            src="/images/Portfolio Details/PoliceSim/pcover.png"
+            src="/images/PortfolioDetails/PoliceSim/pcover.png"
             alt=""
           />
         </div>
@@ -37,25 +37,12 @@ const Detail = () => {
         <div className="flex sm:flex-row flex-col gap-5 items-center">
           <img
             className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-            src="/images/Portfolio Details/PoliceSim/p2.png"
+            src="/images/PortfolioDetails/PoliceSim/p2.png"
             alt=""
           />
           <img
             className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-            src="/images/Portfolio Details/PoliceSim/p1.png"
-            alt=""
-          />
-        </div>
-
-        <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
-          <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-            src="/images/Portfolio Details/PoliceSim/p3.png"
-            alt=""
-          />
-          <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-            src="/images/Portfolio Details/PoliceSim/p4.png"
+            src="/images/PortfolioDetails/PoliceSim/p1.png"
             alt=""
           />
         </div>
@@ -63,12 +50,25 @@ const Detail = () => {
         <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
           <img
             className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-            src="/images/Portfolio Details/PoliceSim/p5.png"
+            src="/images/PortfolioDetails/PoliceSim/p3.png"
             alt=""
           />
           <img
             className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-            src="/images/Portfolio Details/PoliceSim/p6.png"
+            src="/images/PortfolioDetails/PoliceSim/p4.png"
+            alt=""
+          />
+        </div>
+
+        <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            src="/images/PortfolioDetails/PoliceSim/p5.png"
+            alt=""
+          />
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            src="/images/PortfolioDetails/PoliceSim/p6.png"
             alt=""
           />
         </div>
