@@ -17,7 +17,7 @@ const Hero = ({ handleClickScroll }) => {
         <source src="https://youtu.be/QlW0iTOAUE4" type="video/mp4" />
       </video> */}
       <iframe
-        src="https://www.youtube.com/embed/QlW0iTOAUE4?Version=3&autoplay=1&showinfo=0&controls=0&loop=1&playlist=QlW0iTOAUE4"
+        src="https://www.youtube.com/embed/QlW0iTOAUE4?Version=3&autoplay=1&mute=1&enablejsapi=1&showinfo=0&controls=0&loop=1&playlist=QlW0iTOAUE4"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
