@@ -7,23 +7,16 @@ const Hero = ({ handleClickScroll }) => {
     <div className="relative h-screen overflow-x-hidden">
       {/* <img className="w-full hidden sm:block" src="/images/Home/Hero.png" alt="" />
       <img className="w-full sm:hidden" src="/images/Home/Hero Mobile.png" alt="" /> */}
-      {/* <video
+      <video
         autoPlay
         muted
         loop
         className="w-screen h-screen md:object-cover object-fill bg-black opacity-30 z-0"
         controls="controls"
       >
-        <source src="https://youtu.be/QlW0iTOAUE4" type="video/mp4" />
-      </video> */}
-      <iframe
-        src="https://www.youtube.com/embed/QlW0iTOAUE4?Version=3&autoplay=1&mute=1&enablejsapi=1&showinfo=0&controls=0&loop=1&playlist=QlW0iTOAUE4"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-        className="w-screen h-screen md:object-cover object-fill bg-black opacity-30 z-0 "
-      ></iframe>
+        <source src="/videos/header_video.mp4" type="video/mp4" />
+      </video>
+
       <div className="absolute top-36 md:top-1/4 w-full 2xl:top-1/3">
         <div className="w-11/12  md:w-3/4 mx-auto">
           <div className="md:w-3/5">
