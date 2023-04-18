@@ -53,12 +53,12 @@ const Detail = () => {
         <div className="flex flex-col gap-5">
           <img
             className="w-full h-full object-contain"
-            src="/images/Portfolio Details/Ecopod/ecopod6.jpeg"
+            src="/images/PortfolioDetails/EcoPod/ecopod6.jpeg"
             alt=""
           />
           <img
             className="w-full h-full object-contain"
-            src="/images/Portfolio Details/Ecopod/ecopod5.jpeg"
+            src="/images/PortfolioDetails/EcoPod/ecopod5.jpeg"
             alt=""
           />
         </div>
@@ -101,7 +101,7 @@ const Detail = () => {
           >
             <img
               className="w-full h-full object-fill"
-              src="/images/Portfolio Details/Ecopod/ecopod1.png"
+              src="/images/PortfolioDetails/EcoPod/ecopod1.jpeg"
               alt=""
             />
           </div>
