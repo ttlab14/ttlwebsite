@@ -101,7 +101,7 @@ const Detail = () => {
           >
             <img
               className="w-full h-full object-fill"
-              src="/images/Portfolio Details/Ecopod/ecopod1.jpeg"
+              src="/images/Portfolio Details/Ecopod/ecopod1.png"
               alt=""
             />
           </div>
