@@ -1,45 +1,40 @@
-const express=require("express");
-const app=express();
-const dotenv=require("dotenv").config();
-var cors = require('cors')
-const nodemailer=require("nodemailer")
-
-
-
-
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+const express = require("express")
+const cowsay = require("cowsay")
+const cors = require("cors")
+const path = require("path")
+const dotenv = require("dotenv").config()
+const nodemailer = require("nodemailer")
+// Create the server
+const app = express()
+app.use(express.urlencoded({ extended: true }))
+app.use(express.json())
 app.use(cors())
+// Serve static files from the React frontend app
+app.use(express.static(path.join(__dirname, "frontend/build")))
+app.post("/email-sent", async (req, res) => {
+  console.log("----------------------- on email-sent ")
+  const { name, phone, subject, email, message } = req.body
 
+  if (!name || !phone || !subject || !email || !message) {
+    return res.status(400).json({ message: "All Fields must be filled" })
+  }
 
+  const transport = nodemailer.createTransport({
+    service: "gmail",
+    host: "smtp.gmail.com",
+    port: 465,
+    auth: {
+      user: process.env.EMAIL,
+      pass: process.env.PASSWORD,
+    },
+  })
 
+  const mailOptions = {
+    from: email,
+    to: process.env.EMAIL,
+    subject: subject,
 
-
-app.post("/email-sent",async(req,res)=>{
-    const { name,phone,subject, email, message } = req.body;
-
-    if (!name || !phone || !subject || !email ||!message){
-      return  res.status(400).json({message:"All Fields must be filled"})
-    }
-   
-
-    const transport = nodemailer.createTransport({
-        service: "gmail",
-        host: "smtp.gmail.com",
-        port: 465,
-        auth: {
-          user: process.env.EMAIL,
-          pass: process.env.PASSWORD,
-        },
-      });
-
-
-      const mailOptions = {
-        from: email,
-        to: process.env.EMAIL,
-        subject: subject,
-  
-        html: `
+    html: `
         <!doctype html>
         <html lang="en-US">
         <head>
@@ -101,7 +96,7 @@ app.post("/email-sent",async(req,res)=>{
             <!--/100% body table-->
         </body>
         </html>`,
-                html: `
+    html: `
         <!doctype html>
         <html lang="en-US">
         <head>
@@ -164,21 +159,44 @@ app.post("/email-sent",async(req,res)=>{
             <!--/100% body table-->
         </body>
         </html>`,
-      };
+  }
 
-      transport.sendMail(mailOptions, (error, info) => {
-        if (error) {
-          return res.status(400).json({ messgae: "Error" });
-        }
-        return res.status(200).json({ messgae: "Email Sent" });
-      });
+  transport.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      return res.status(400).json({ messgae: "Error" })
+    }
+    return res.status(200).json({ messgae: "Email Sent" })
+  })
 })
 
-port=process.env.PORT || 5000
-app.listen(port,()=>{
-    console.log(`server is running on to port  ${port}`)
+// Serve our api route /cow that returns a custom talking text cow
+app.get("/api/cow/:say", cors(), async (req, res, next) => {
+  try {
+    const text = req.params.say
+    const moo = cowsay.say({ text })
+    res.json({ moo })
+  } catch (err) {
+    next(err)
+  }
 })
 
+// Serve our base route that returns a Hellow World cow
+app.get("/api/cow/", cors(), async (req, res, next) => {
+  try {
+    const moo = cowsay.say({ text: "Hello World! from backend" })
+    res.json({ moo })
+  } catch (err) {
+    next(err)
+  }
+})
 
+// Anything that doesn't match the above, send back the index.html file
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname + "/frontend/build/index.html"))
+})
 
-//  rcqtfavtwfcwwlxv
+// Choose the port and start the server
+const PORT = process.env.PORT || 5000
+app.listen(PORT, () => {
+  console.log(`Mixing it up on port ${PORT}`)
+})

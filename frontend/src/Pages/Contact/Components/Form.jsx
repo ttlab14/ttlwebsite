@@ -1,17 +1,17 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 
 const Form = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false)
   const [mailData, setMailData] = useState({
     name: "",
     phone: "",
     email: "",
     subject: "",
     message: "",
-  });
+  })
   const handleSubmit = () => {
-    setLoading(true);
-    fetch("http://localhost:5001/email-sent", {
+    setLoading(true)
+    fetch("/email-sent", {
       method: "POST",
       body: JSON.stringify(mailData),
       headers: {
@@ -20,8 +20,8 @@ const Form = () => {
     })
       .then((response) => response.json())
       .then((json) => {
-        console.log(json);
-        setLoading(false);
+        console.log(json)
+        setLoading(false)
         if (json.messgae !== "Error") {
           setMailData({
             name: "",
@@ -29,32 +29,31 @@ const Form = () => {
             email: "",
             subject: "",
             message: "",
-          });
-          alert("Mail sent successfully. We will get back to you very shortly");
-        }
-        else{
-          alert("Something went wrong, Please try again!"); 
+          })
+          alert("Mail sent successfully. We will get back to you very shortly")
+        } else {
+          alert("Something went wrong, Please try again!")
         }
       })
       .catch(() => {
-        setLoading(false);
-      });
-  };
+        setLoading(false)
+      })
+  }
   return (
     <div className="lg:w-4/6">
       <h1 className="text-white text-xl md:text-2xl mb-8">Send Us a Message</h1>
 
       <form
         onSubmit={(e) => {
-          e.preventDefault();
-          handleSubmit();
+          e.preventDefault()
+          handleSubmit()
         }}
       >
         <div className="md:flex justify-between md:mb-5">
           <input
             value={mailData.name}
             onChange={(e) => {
-              setMailData({ ...mailData, name: e.target.value });
+              setMailData({ ...mailData, name: e.target.value })
             }}
             className="text-base md:text-lg w-full mb-5 md:mb-0 md:w-1/2 md:mr-8 text-white bg-transparent border border-dark-grey rounded-lg p-3"
             type="text"
@@ -64,7 +63,7 @@ const Form = () => {
           <input
             value={mailData.phone}
             onChange={(e) => {
-              setMailData({ ...mailData, phone: e.target.value });
+              setMailData({ ...mailData, phone: e.target.value })
             }}
             className="text-base md:text-lg w-full mb-5 md:mb-0 md:w-1/2 text-white bg-transparent border border-dark-grey rounded-lg p-3"
             type="tel"
@@ -75,7 +74,7 @@ const Form = () => {
           <input
             value={mailData.email}
             onChange={(e) => {
-              setMailData({ ...mailData, email: e.target.value });
+              setMailData({ ...mailData, email: e.target.value })
             }}
             className="text-base md:text-lg w-full mb-5 md:mb-0 md:w-1/2 md:mr-8 text-white bg-transparent border border-dark-grey rounded-lg p-3"
             type="email"
@@ -85,7 +84,7 @@ const Form = () => {
           <input
             value={mailData.subject}
             onChange={(e) => {
-              setMailData({ ...mailData, subject: e.target.value });
+              setMailData({ ...mailData, subject: e.target.value })
             }}
             className="text-base md:text-lg w-full mb-5 md:mb-0 md:w-1/2 text-white bg-transparent border border-dark-grey rounded-lg p-3"
             type="text"
@@ -97,7 +96,7 @@ const Form = () => {
             rows={6}
             value={mailData.message}
             onChange={(e) => {
-              setMailData({ ...mailData, message: e.target.value });
+              setMailData({ ...mailData, message: e.target.value })
             }}
             className="text-base md:text-lg w-full resize-none outline-none text-white bg-transparent border border-dark-grey rounded-lg p-3"
             type="email"
@@ -115,7 +114,7 @@ const Form = () => {
         </button>
       </form>
     </div>
-  );
-};
+  )
+}
 
-export default Form;
+export default Form
