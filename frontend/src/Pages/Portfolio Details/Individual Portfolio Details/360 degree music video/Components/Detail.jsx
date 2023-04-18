@@ -66,12 +66,8 @@ const Detail = () => {
           Built for Meta Quest 1 & 2 using Unity Engine
         </h1>
         <div className="flex sm:flex-row flex-col gap-5 items-center">
-          <video controls className="cursor-pointer">
-            <source
-              src="/videos/360music/360degmusicvideo.mp4"
-              type="video/mp4"
-            />
-          </video>
+                 <iframe width="70%" height="500px" src="https://www.youtube.com/embed/2GnSmbsuGG4?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
         </div>
       </div>
     </div>
