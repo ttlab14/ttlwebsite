@@ -5,39 +5,39 @@ const projects = [
   {
     name:"portfolio",
     type: "Virtual Reality",
-    img: "/images/Portfolio/vr.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/vr.png",
     icon:"vr"
   },
   {
     name:"portfolio",
     type: "Augmented Reality",
-    img: "/images/Portfolio/ar.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/ar.png",
     icon:"ar"
   },
   {
     name:"portfolio",
     type: "Medical Simulations",
-    img: "/images/Portfolio/medical.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/medical.png",
     icon:"vr"
   },
   {
     name:"portfolio",
     type: "Training Simulations",
-    img: "/images/Portfolio/training.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/training.png",
     icon:"vr"
   },
 
   {
     name:"portfolio",
     type: "AI, Metaverse",
-    img: "/images/Portfolio/metaverse.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/metaverse.png",
     icon:"metaverse"
   },
 
   {
     name:"portfolio",
     type: "3D and 2D Games",
-    img: "/images/Portfolio/games.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/games.png",
     icon:"games"
   },
 ];
@@ -62,3 +62,4 @@ const CaseStudy = () => {
 };
 
 export default CaseStudy;
+
