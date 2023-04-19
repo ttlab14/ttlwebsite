@@ -5,39 +5,39 @@ const projects = [
   {
     name:"portfolio",
     type: "Virtual Reality",
-    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/vr.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/vr-min.png",
     icon:"vr"
   },
   {
     name:"portfolio",
     type: "Augmented Reality",
-    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/ar.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/ar-min.png",
     icon:"ar"
   },
   {
     name:"portfolio",
     type: "Medical Simulations",
-    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/medical.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/medical-min.png",
     icon:"vr"
   },
   {
     name:"portfolio",
     type: "Training Simulations",
-    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/training.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/training-min.png",
     icon:"vr"
   },
 
   {
     name:"portfolio",
     type: "AI, Metaverse",
-    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/metaverse.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/metaverse-min.png",
     icon:"metaverse"
   },
 
   {
     name:"portfolio",
     type: "3D and 2D Games",
-    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/games.png",
+    img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PortfolioPage/games-min.png",
     icon:"games"
   },
 ];
