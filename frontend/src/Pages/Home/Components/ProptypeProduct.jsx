@@ -6,7 +6,7 @@ const ProptypeProduct = () => {
     <div className="bg-light-grey">
       <div className="w-11/12  md:w-3/4 mx-auto grid lg:grid-cols-2 gap-12 items-center py-20">
         <div className="">
-          <img src="/images/Services/2nd Section.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/PageAssets/2nd+Section-min.png" alt="" />
         </div>
         <div className="md:w-11/12">
           <h1 className="text-gold text-base uppercase mb-2">About Us</h1>
