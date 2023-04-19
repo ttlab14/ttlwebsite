@@ -9,7 +9,7 @@ const Detail = () => {
         <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
         <img
           className="w-full h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/pcover.PNG"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/pcover-min.PNG"
           alt=""
         />
         </div>
@@ -36,12 +36,12 @@ const Detail = () => {
         <div  className="flex sm:flex-row flex-col gap-5 items-center">
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p2.png"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p2-min.png"
           alt=""
         />
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p1.png"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p1-min.png"
           alt=""
         />
         </div>
@@ -50,12 +50,12 @@ const Detail = () => {
         <div  className="flex sm:flex-row flex-col gap-5 items-center my-5">
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p3.png"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p3-min.png"
           alt=""
         />
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p4.png"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p4-min.png"
           alt=""
         />
         </div>
@@ -63,12 +63,12 @@ const Detail = () => {
         <div  className="flex sm:flex-row flex-col gap-5 items-center my-5">
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p5.PNG"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p5-min.PNG"
           alt=""
         />
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p6.PNG"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p6-min.PNG"
           alt=""
         />
         </div>
@@ -85,3 +85,4 @@ const Detail = () => {
 };
 
 export default Detail;
+
