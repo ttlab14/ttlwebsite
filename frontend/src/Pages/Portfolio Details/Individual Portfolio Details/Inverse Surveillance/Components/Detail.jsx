@@ -11,7 +11,7 @@ const Detail = () => {
         <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
         <img
           className="w-full h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/InverseSurveillance+/is_cover.PNG"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/InverseSurveillance+/is_cover-min.PNG"
           alt=""
         />
         </div>
@@ -59,7 +59,7 @@ const Detail = () => {
       <div className="flex sm:flex-row flex-col gap-5 items-center">
       <img
           className="w-full h-full object-contain"style={{ width: '500px' }}
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/InverseSurveillance+/labyrinth.PNG"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/InverseSurveillance+/labyrinth-min.PNG"
           alt=""
         />
                <p className="text-grey text-base md:text-lg mt-6">
