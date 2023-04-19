@@ -72,6 +72,5 @@ allowFullScreen
       </div>
   );
 };
-
 export default Detail;
 
