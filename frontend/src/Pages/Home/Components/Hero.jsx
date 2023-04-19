@@ -14,7 +14,7 @@ const Hero = ({ handleClickScroll }) => {
         className="w-screen h-screen md:object-cover object-fill bg-black opacity-30 z-0"
         controls="controls"
       >
-        <source src="https://youtu.be/QlW0iTOAUE4" type="video/mp4" />
+        <source src="https://toggletechlab.s3.us-east-2.amazonaws.com/header_video.mp4" type="video/mp4" />
       </video> */}
       <iframe
         src="https://www.youtube.com/embed/QlW0iTOAUE4?Version=3&autoplay=1&mute=1&enablejsapi=1&showinfo=0&controls=0&loop=1&playlist=QlW0iTOAUE4"
