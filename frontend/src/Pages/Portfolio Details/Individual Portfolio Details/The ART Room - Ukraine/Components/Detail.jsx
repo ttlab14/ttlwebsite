@@ -71,14 +71,14 @@ const Detail = () => {
         <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
         <img
             className="w-full h-full object-fill"
-            src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art1.PNG"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art1-min.PNG"
             alt=""
           />
         </div>
         <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
         <img
             className="w-full h-full object-fill"
-            src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art2.PNG"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art2-min.PNG"
             alt=""
           />
         </div>
@@ -86,7 +86,7 @@ const Detail = () => {
 <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
         <img
             className="w-full h-full object-fill"
-            src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art3.PNG"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art3-min.PNG"
             alt=""
           />
         </div>
