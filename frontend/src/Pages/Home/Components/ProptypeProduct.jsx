@@ -37,16 +37,16 @@ Don't let a lack of funding hold your startup back. Contact us today to learn ho
 
           <div className="grid grid-cols-2 gap-12 items-center my-12">
         <div className="md:mb-2">
-          <img className="w-3/4" src="/images/About/Upwork.png" alt="" />
+          <img className="w-3/4" src="https://toggletechlab.s3.us-east-2.amazonaws.com/AboutPage/Upwork-min.png" alt="" />
         </div>
         <div className="md:mb-2">
-          <img className="w-3/4" src="/images/About/XR Today.png" alt="" />
+          <img className="w-3/4" src="https://toggletechlab.s3.us-east-2.amazonaws.com/AboutPage/XR+Today-min.png" alt="" />
         </div>
         <div className="md:mb-2">
-          <img className="w-3/4" src="/images/About/Rising Star.png" alt="" />
+          <img className="w-3/4" src="https://toggletechlab.s3.us-east-2.amazonaws.com/AboutPage/Rising+Star-min.png" alt="" />
         </div>
         <div className="md:mb-2">
-          <img className="w-3/4" src="/images/About/Venture Labs.png" alt="" />
+          <img className="w-3/4" src="https://toggletechlab.s3.us-east-2.amazonaws.com/AboutPage/Venture+Labs-min.png" alt="" />
         </div>
       </div>
 
@@ -56,12 +56,10 @@ Don't let a lack of funding hold your startup back. Contact us today to learn ho
           </button>
           </Link>
         </div>
-      </div>
-
-
-      
+      </div>   
     </div>
   );
 };
 
 export default ProptypeProduct;
+
