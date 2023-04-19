@@ -1,100 +1,88 @@
-import React from "react"
+import React from "react";
 
 const Detail = () => {
   return (
     <div>
       <div className="mb-16">
         <h1 className="text-white text-xl md:text-2xl mb-8">
-          Providing Comprehensive Therapy For Children With Autism Spectrum
-          Disorder by Using a Virtual Reality Application
+          Sprint AR
         </h1>
-        <div className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
-          <img
-            className="w-full h-full object-contain"
-            src="/images/PortfolioDetails/ASU/asulogo.jpg"
-            alt=""
-          />
+        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
+        <img
+          className="w-full h-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprintarlogo.png"
+          alt=""
+        />
         </div>
         <p className="text-grey text-base md:text-lg mt-6">
-          We helped a lab at the Arizona State University, Fulton School of
-          Engineering develop a virtual reality prototype to submit to the
-          National Science Foundation (NSF).
+        Training for a race?  The Sprint AR app offers a challenge where you compete with an augmented reality runner in the widely popular 40-yard dash, a test of speed in sports. This experience enables you to gain a sense of what it's like to match the speed of professional athletes who typically finish the race in 4-5 seconds. Whether you're aiming to set a benchmark for your personal development or curious to know how it feels to achieve high speeds, this AR application can provide you with the visual representation of that experience.
         </p>
         <p className="text-grey text-base md:text-lg mt-6">
-          Studies have shown that many children with ASD prefer immersive
-          interactive technologies, and this preference can be explored to
-          develop systems that may inspire creative learning through immersive
-          play. The proposed solution consists of an immersive VR program
-          integrated with biometric feedback modules which allow users to
-          explore, learn, and tackle new challenges within the safety of a
-          virtual environment. Additionally, this could be done with no time
-          constraints, as many times as that individual desires to use the
-          program, while reformatting mundane material in a manner that is more
-          consistent with their hyper-focused topic of interest (from{" "}
-          <a href="https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf">
-            here
-          </a>
-          )
+        The core features of the app include, timed races, the ability to race against a NPC (Non Player character), race against characters with their own accelerations/top speeds for example fast zombies to simulate them chasing the runner, or horses/dolphins/cheetah. The ability to line up multiple AR opponents to race simultaneously
         </p>
         <p className="text-grey text-base md:text-lg mt-6">
-          The virtual reality prototype tests whether children across the autism
-          spectrum disorder (ASD) respond in VR. Any interaction/response is
-          stored in a database which can then be accessed by the lab. The
-          researcher provides a voice command via Google Cloud to the NPC (Non
-          Player Character) asking the child to pick up the object. There are 2
-          types of responses that the lab wanted to test:
-          <ol>
-            <li>If an object/toy was picked up</li>
-            <li>If so, then what kind of object/toy was picked up</li>
-          </ol>
+        This AR app also includes monetization features such as app ads and a Premium option to pay $1.99 to go ad-free (along with access to future items)
         </p>
+        <p className="text-grey text-base md:text-lg mt-6">
+        As with most apps there are also social features such as the ability for a user to invite other users in exchange for the Premium option, the ability to post race results to social media ("I just ran 40-yards in 4.8 seconds!") and . adding basic race history and a personal best
+          </p>
+          <p className="text-grey text-base md:text-lg mt-6">
+          Want to start racing?
+          <ul>
+        <li>Scan the area in front of you, aim your device's camera at it and gradually move it. </li>
+        <li>Once the surface has been detected, a white mesh will appear over it, and you will see an indicator to mark the starting point.</li>
+        <li>To confirm the placement of the starting line, click the "Place" button. If you are not satisfied with the placement, you can redo it by clicking the "Redo" button.</li>
+        <li>After the placement, you can slowly adjust your position along the racing environment to capture the race from your preferred angle.</li>
+
+          </ul>
+          </p>
+          <p className="text-grey text-base md:text-lg mt-6">
+          App can be found <a href="https://apps.apple.com/us/app/sprint-ar/id1618259372?platform=iphone">here</a>
+          </p>
       </div>
       <div className="mb-16">
         <h1 className="text-white text-xl md:text-2xl mb-8">
-          Built for Meta Quest 1 & 2 using Unity Engine
+          Built for iPhone
         </h1>
-        <h1 className="text-white text-xl md:text-2xl mb-8">Results </h1>
-        <div className="flex sm:flex-row flex-col gap-5 items-center">
-          <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-            src="/images/PortfolioDetails/ASU/ASU2.png"
-            alt=""
-          />
-          <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-            src="/images/PortfolioDetails/ASU/ASU3.png"
-            alt=""
-          />
+        <div  className="flex sm:flex-row flex-col gap-5 items-center">
+        <img
+          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint0.PNG"
+          alt=""
+        />
+        <img
+          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint5.PNG"
+          alt=""
+        />
         </div>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-        <p className="text-grey text-base md:text-lg mt-6">
-          All participants were very receptive towards the VR system and the
-          environment which was created for this trial. Therefore, successfully
-          confirming the lab's initial hypothesis that children diagnosed with
-          ASD respond in VR more willingly.
-        </p>
+
+         <div  className="flex sm:flex-row flex-col gap-5 items-center">
+        <img
+          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint1.PNG"
+          alt=""
+        />
+        <img
+          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint4.PNG"
+          alt=""
+        />
+        </div> 
       </div>
       <div className="mb-16">
-        <h1 className="text-white text-xl md:text-2xl mb-8">
-          Future direction
-        </h1>
-        <div className="flex items-center">
-          <img
-            className="w-full h-full object-contain"
-            src="/images/PortfolioDetails/ASU/ASU1.png"
-            alt=""
-          />
+      <div  className="flex items-center">
+        <img
+          className="w-full h-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint3.PNG"
+          alt=""
+        />
         </div>
-        <p className="text-grey text-base md:text-lg mt-6">
-          For the next step of the research the lab has decided to further the
-          experience by enriching the enviornment with more objects that
-          children can interact with in various different ways for example
-          picking up a ball, bouncing the ball, squeezing it etc
-        </p>
+        
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Detail
+export default Detail;
+
