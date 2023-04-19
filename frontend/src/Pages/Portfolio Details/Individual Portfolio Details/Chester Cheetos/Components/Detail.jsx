@@ -10,7 +10,7 @@ const Detail = () => {
         <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
         <img
           className="w-full h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/cover.PNG"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/cover-min.PNG"
           alt=""
         />
         </div>
@@ -51,12 +51,12 @@ In conclusion, Frito Lay's carnival-style web game is an excellent example of ho
         <div  className="flex sm:flex-row flex-col gap-5 items-center">
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/1.PNG"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/1-min.PNG"
           alt=""
         />
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester2.PNG"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester2-min.PNG"
           alt=""
         />
         </div>
@@ -65,12 +65,12 @@ In conclusion, Frito Lay's carnival-style web game is an excellent example of ho
         <div  className="flex sm:flex-row flex-col gap-5 items-center my-5">
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester3.PNG"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester3-min.PNG"
           alt=""
         />
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester4.PNG"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester4-min.PNG"
           alt=""
         />
         </div>
@@ -78,12 +78,12 @@ In conclusion, Frito Lay's carnival-style web game is an excellent example of ho
         <div  className="flex sm:flex-row flex-col gap-5 items-center my-5">
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester6.PNG"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester6-min.PNG"
           alt=""
         />
         <img
           className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester7.PNG"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester7-min.PNG"
           alt=""
         />
         </div>
@@ -91,10 +91,12 @@ In conclusion, Frito Lay's carnival-style web game is an excellent example of ho
         <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
         <img
             className="w-full h-full object-fill"
-            src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester5.PNG"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester5-min.PNG"
             alt=""
           />
         </div>
+
+
       </div>
       
     </div>
