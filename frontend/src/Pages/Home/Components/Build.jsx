@@ -19,7 +19,7 @@ const Build = () => {
         </div>
         <div
           className="bg-top bg-no-repeat bg-cover -m-4"
-          style={{ backgroundImage: "url('/images/Home/We Build BG.png')" }}
+          style={{ backgroundImage: "url('https://toggletechlab.s3.us-east-2.amazonaws.com/HomePage/We+Build+BG-min.png')" }}
         >
           <div className=" rounded-xl flex flex-col items-center mb-16">
             <div className="relative bottom-8 left-8">
@@ -30,7 +30,7 @@ const Build = () => {
         </div>
         <div
           className="bg-top bg-no-repeat bg-cover -m-4"
-          style={{ backgroundImage: "url('/images/Home/We Build BG.png')" }}
+          style={{ backgroundImage: "url(https://toggletechlab.s3.us-east-2.amazonaws.com/HomePage/We+Build+BG-min.png')" }}
         >
           <div className=" rounded-xl flex flex-col items-center mb-16">
             <div className="relative bottom-8 left-8">
@@ -41,7 +41,7 @@ const Build = () => {
         </div>
         <div
           className="bg-top bg-no-repeat bg-cover -m-4"
-          style={{ backgroundImage: "url('/images/Home/We Build BG.png')" }}
+          style={{ backgroundImage: "url('https://toggletechlab.s3.us-east-2.amazonaws.com/HomePage/We+Build+BG-min.png')" }}
         >
           <div className=" rounded-xl flex flex-col items-center mb-16">
             <div className="relative bottom-8 left-8">
@@ -52,7 +52,7 @@ const Build = () => {
         </div>
         <div
           className="bg-top bg-no-repeat bg-cover -m-4"
-          style={{ backgroundImage: "url('/images/Home/We Build BG.png')" }}
+          style={{ backgroundImage: "url('https://toggletechlab.s3.us-east-2.amazonaws.com/HomePage/We+Build+BG-min.png')" }}
         >
           <div className=" rounded-xl flex flex-col items-center mb-16">
             <div className="relative bottom-8 left-6">
@@ -63,7 +63,7 @@ const Build = () => {
         </div>
         <div
           className="bg-top bg-no-repeat bg-cover -m-4"
-          style={{ backgroundImage: "url('/images/Home/We Build BG.png')" }}
+          style={{ backgroundImage: "url('https://toggletechlab.s3.us-east-2.amazonaws.com/HomePage/We+Build+BG-min.png')" }}
         >
           <div className=" rounded-xl flex flex-col items-center mb-16">
             <div className="relative bottom-8 left-6">
