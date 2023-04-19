@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div
       className="bg-top bg-no-repeat bg-cover py-28"
-      style={{ backgroundImage: "url('/images/Home/About BG.png')" }}
+      style={{ backgroundImage: "url('https://toggletechlab.s3.us-east-2.amazonaws.com/AboutPage/About+BG-min.png')" }}
     >
       <div className="md:flex justify-between items-center w-3/4 mx-auto">
         <div className="md:w-3/5">
@@ -30,3 +30,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
