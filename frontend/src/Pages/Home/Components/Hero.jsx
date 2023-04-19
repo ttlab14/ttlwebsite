@@ -5,9 +5,9 @@ import YouTubeToHtml5 from "@thelevicole/youtube-to-html5-loader"
 const Hero = ({ handleClickScroll }) => {
   return (
     <div className="relative h-screen overflow-x-hidden">
-      {/* <img className="w-full hidden sm:block" src="/images/Home/Hero.png" alt="" />
-      <img className="w-full sm:hidden" src="/images/Home/Hero Mobile.png" alt="" /> */}
-      <video
+     <img className="w-full hidden sm:block" src="/images/Home/Hero.png" alt="" />
+      <img className="w-full sm:hidden" src="/images/Home/Hero Mobile.png" alt="" />
+       {/* <video
         autoPlay
         muted
         loop
@@ -15,7 +15,7 @@ const Hero = ({ handleClickScroll }) => {
         controls="controls"
       >
         <source src="https://toggletechlab.s3.us-east-2.amazonaws.com/header_video.mp4" type="video/mp4" />
-      </video> 
+      </video>  */}
       
       <div className="absolute top-36 md:top-1/4 w-full 2xl:top-1/3">
         <div className="w-11/12  md:w-3/4 mx-auto">
