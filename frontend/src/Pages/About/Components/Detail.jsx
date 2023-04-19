@@ -6,7 +6,7 @@ const Detail = () => {
       {" "}
       <div className="grid lg:grid-cols-2 gap-12 items-center mt-20">
         <div className="">
-          <img src="/images/Services/2nd Section.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/PageAssets/2nd+Section-min.png" alt="" />
         </div>
         <div className="md:w-11/12">
           <h1 className="text-white text-xl md:text-2xl mb-8">
