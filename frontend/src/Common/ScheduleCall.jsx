@@ -5,7 +5,7 @@ const ScheduleCall = () => {
   return (
     <div
       className="bg-top bg-no-repeat bg-cover py-28"
-      style={{ backgroundImage: "url('/images/Quick/background.png')" }}
+      style={{ backgroundImage: "url('https://toggletechlab.s3.us-east-2.amazonaws.com/ScheduleCallSection/background-min.png')" }}
     >
       <div className="lg:flex justify-between items-center w-3/4 mx-auto">
         <div className="lg:w-1/2">
