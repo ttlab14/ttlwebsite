@@ -16,10 +16,10 @@ const Testimonials = () => {
           </h1>
           <div className="flex mt-4 md:mt-0">
             <div onClick={() => swiperRef.current.swiper.slidePrev()} className="cursor-pointer rounded-full border border-dark-grey w-14 h-14 flex justify-center items-center mr-4">
-              <img src="/icons/Chevron Left.svg" alt="" />
+              <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Chevron+Left.svg" alt="" />
             </div>
             <div  onClick={() => swiperRef.current.swiper.slideNext()} className="cursor-pointer rounded-full border border-dark-grey w-14 h-14 flex justify-center items-center">
-              <img src="/icons/Chevron Right.svg" alt="" />
+              <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Chevron+Right.svg" alt="" />
             </div>
           </div>
         </div>
@@ -93,7 +93,7 @@ const Testimonials = () => {
             {" "}
             <div className="">
               <div className="mr-1 md:mr-4 border border-dark-grey rounded-xl py-6 px-8  mb-3">
-                <img className="w-12 h-10" src="/icons/quote.svg" alt="" />
+                <img className="w-12 h-10" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/quote.svg" alt="" />
                 <p className="text-grey text-base md:text-lg mt-8">
                   We had a fantastic experience working with Toggle Tech Lab.
                   They are very professional and knowledgeable. Clearly
@@ -114,3 +114,4 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+
