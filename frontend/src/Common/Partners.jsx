@@ -8,34 +8,34 @@ const Partners = () => {
       </p>
       <div className="flex justify-between items-center flex-wrap">
         <div className="w-1/2 md:w-1/3 lg:w-1/5 px-8 my-6">
-          <img src="/images/Partners/1.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Brands/1.png" alt="" />
         </div>
         <div className="w-1/2 md:w-1/3 lg:w-1/5 px-8 my-6">
-          <img src="/images/Partners/2.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Brands/2.png" alt="" />
         </div>
         <div className="w-1/2 md:w-1/3 lg:w-1/5 px-8 my-6">
-          <img src="/images/Partners/3.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Brands/3.png" alt="" />
         </div>
         <div className="w-1/2 md:w-1/3 lg:w-1/5 px-8 my-6">
-          <img src="/images/Partners/4.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Brands/4.png" alt="" />
         </div>
         <div className="w-1/2 md:w-1/3 lg:w-1/5 px-8 my-6">
-          <img src="/images/Partners/5.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Brands/5.png" alt="" />
         </div>
         <div className="w-1/2 md:w-1/3 lg:w-1/5 px-8 my-6">
-          <img src="/images/Partners/6.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Brands/6.png" alt="" />
         </div>
         <div className="w-1/2 md:w-1/3 lg:w-1/5 px-8 my-6">
-          <img src="/images/Partners/7.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Brands/7.png" alt="" />
         </div>
         <div className="w-1/2 md:w-1/3 lg:w-1/5 px-8 my-6">
-          <img src="/images/Partners/8.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Brands/8.png" alt="" />
         </div>
         <div className="w-1/2 md:w-1/3 lg:w-1/5 px-8 my-6">
-          <img src="/images/Partners/9.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Brands/9.png" alt="" />
         </div>
         <div className="w-1/2 md:w-1/3 lg:w-1/5 px-8 my-6">
-          <img src="/images/Partners/10.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Brands/10.png" alt="" />
         </div>
       </div>
     </div>
@@ -43,3 +43,4 @@ const Partners = () => {
 };
 
 export default Partners;
+
