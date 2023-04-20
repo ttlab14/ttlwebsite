@@ -20,7 +20,7 @@ const ScheduleCall = () => {
             <h1 className="text-xl md:text-2xl text-gold mr-4 underline">
               Schedule a Call
             </h1>
-            <img src="/icons/arrow.svg" alt="" />
+            <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/arrow.svg" alt="" />
           </Link>
         </div>
       </div>
