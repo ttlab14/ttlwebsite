@@ -1,8 +1,10 @@
-import { Link } from "react-router-dom"
-import React from "react"
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
+
+
     <div className="w-11/12  md:w-3/4 mx-auto my-20">
       <h1 className="text-gold text-base uppercase mb-4">Services</h1>
       <div className="md:flex justify-between items-center  mb-8">
@@ -16,7 +18,7 @@ const Services = () => {
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl">
           <div className=" py-10 px-8">
-            <img className="w-14 h-14" src="/icons/Why-Choose-1.svg" alt="" />
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-1.svg" alt="" />
             <h1 className="text-white text-xl my-4">XR Prototyping</h1>
             <p className="text-grey text-base md:text-lg">
               We specialize in creating virtual and augmented reality prototypes
@@ -30,7 +32,7 @@ const Services = () => {
         </div>
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl">
           <div className="py-10 px-8">
-            <img className="w-14 h-14" src="/icons/Why-Choose-2.svg" alt="" />
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-2.svg" alt="" />
             <h1 className="text-white text-xl my-4">XR Experiences</h1>
             <p className="text-grey text-base md:text-lg">
               We create XR experiences such as immersive tours, meditative
@@ -43,7 +45,7 @@ const Services = () => {
         </div>
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl">
           <div className="py-10 px-8">
-            <img className="w-14 h-14" src="/icons/Why-Choose-3.svg" alt="" />
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-3.svg" alt="" />
             <h1 className="text-white text-xl my-4">XR Training</h1>
             <p className="text-grey text-base md:text-lg">
               Over 9 years of experience in creating training simulations across
@@ -56,7 +58,8 @@ const Services = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;
+
