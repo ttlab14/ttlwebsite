@@ -5,7 +5,7 @@ const Detail = () => {
     <div>
       <div className="mb-16">
         <h1 className="text-white text-xl md:text-2xl mb-8">Waajoo Africa</h1>
-        <div className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
+        <div className="w-full sm:h-72 lg:h-96  2xl:h-100  3xl:h-110">
           <img
             className="w-full h-full object-contain"
             src="/images/PortfolioDetails/Waajoo/waajoo.png"

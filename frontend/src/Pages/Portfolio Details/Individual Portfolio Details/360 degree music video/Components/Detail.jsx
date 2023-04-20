@@ -7,7 +7,7 @@ const Detail = () => {
         <h1 className="text-white text-xl md:text-2xl mb-8">
           360 Degree Music Video
         </h1>
-        <div className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110"></div>
+        <div className="w-full sm:h-72 lg:h-96  2xl:h-100  3xl:h-110"></div>
         <p className="text-grey text-base md:text-lg mt-6">
           Virtual reality (VR) has revolutionized the way we consume and
           experience media. 360-degree videos, in particular, offer an immersive

@@ -8,7 +8,7 @@ const Detail = () => {
           Providing Comprehensive Therapy For Children With Autism Spectrum
           Disorder by Using a Virtual Reality Application
         </h1>
-        <div className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
+        <div className="w-full sm:h-72 lg:h-96  2xl:h-100  3xl:h-110">
           <img
             className="w-full h-full object-contain"
             src="/images/PortfolioDetails/ASU/asulogo.jpg"
@@ -53,7 +53,7 @@ const Detail = () => {
         <h1 className="text-white text-xl md:text-2xl mb-8">
           Built for Meta Quest 1 & 2 using Unity Engine
         </h1>
-        <div className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
+        <div className="w-full sm:h-72 lg:h-96  2xl:h-100  3xl:h-110">
           <img
             className="w-full h-full object-contain"
             src="/images/PortfolioDetails/ASU/ASU2.png"
@@ -65,7 +65,7 @@ const Detail = () => {
       </div>
       <div className="mb-16">
         <h1 className="text-white text-xl md:text-2xl mb-8">Results </h1>
-        <div className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
+        <div className="w-full sm:h-72 lg:h-96  2xl:h-100  3xl:h-110">
           <img
             className="w-full h-full object-contain"
             src="/images/PortfolioDetails/ASU/ASU3.png"
@@ -84,7 +84,7 @@ const Detail = () => {
         <h1 className="text-white text-xl md:text-2xl mb-8">
           Future direction
         </h1>
-        <div className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
+        <div className="w-full sm:h-72 lg:h-96  2xl:h-100  3xl:h-110">
           <img
             className="w-full h-full object-contain"
             src="/images/PortfolioDetails/ASU/ASU1.png"

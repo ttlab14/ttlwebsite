@@ -8,7 +8,7 @@ const Detail = () => {
           Providing Comprehensive Therapy For Children With Autism Spectrum
           Disorder by Using a Virtual Reality Application
         </h1>
-        <div className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
+        <div className="w-full sm:h-72 lg:h-96  2xl:h-100  3xl:h-110">
           <img
             className="w-full h-full object-contain"
             src="/images/PortfolioDetails/ASU/asulogo.jpg"
