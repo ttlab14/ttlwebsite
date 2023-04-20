@@ -26,7 +26,8 @@
     "dev": "craco --openssl-legacy-provider start",
     "start": "serve -s build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": [
