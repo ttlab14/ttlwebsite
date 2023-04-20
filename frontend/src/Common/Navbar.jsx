@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="w-full bg-navbar-gredient fixed z-10  mx-auto">
         <div className="hidden md:flex w-11/12 mx-auto justify-between items-center pt-3 pb-2 ">
           <NavLink to="/">
-            <img className="w-4/5" src="/icons/Logo.svg" alt="" />
+            <img className="w-4/5" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Logo.svg" alt="" />
           </NavLink>
           <div className="flex items-center text-base md:text-lg">
             <NavLink
@@ -83,7 +83,7 @@ const Navbar = () => {
                   setShowOptions(!showOptions);
                 }}
                 className=""
-                src="/icons/Navbar Toggle.svg"
+                src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Navbar+Toggle.svg"
                 alt=""
               />
             )}
@@ -93,7 +93,7 @@ const Navbar = () => {
                   setShowOptions(!showOptions);
                 }}
                 className=""
-                src="/icons/Navbar Close.svg"
+                src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Navbar+Close.svg"
                 alt=""
               />
             )}
