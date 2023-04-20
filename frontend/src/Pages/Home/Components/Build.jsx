@@ -30,12 +30,12 @@ const Build = () => {
         </div>
         <div
           className="bg-top bg-no-repeat bg-cover -m-4"
-          style={{ backgroundImage: "url(https://toggletechlab.s3.us-east-2.amazonaws.com/HomePage/We+Build+BG-min.png')" }}
+          style={{ backgroundImage: "url('https://toggletechlab.s3.us-east-2.amazonaws.com/HomePage/We+Build+BG-min.png')" }}
         >
           <div className=" rounded-xl flex flex-col items-center mb-16">
             <div className="relative bottom-8 left-8">
               <img className="w-3/4" src="https://toggletechlab.s3.us-east-2.amazonaws.com/HomePage/We_Build-3.png" alt="" />
-              <p className="text-xl text-white mt-4 ">HTC Vive</p>
+              <p className="text-xl text-white mt-4 ml-8">Pico</p>
             </div>
           </div>
         </div>
