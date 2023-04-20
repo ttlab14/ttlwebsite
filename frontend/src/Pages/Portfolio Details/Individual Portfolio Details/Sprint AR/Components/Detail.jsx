@@ -7,7 +7,7 @@ const Detail = () => {
         <h1 className="text-white text-xl md:text-2xl mb-8">
           Sprint AR
         </h1>
-        <div  className="w-full h-72 lg:h-96  2xl:h-100  3xl:h-110">
+        <div  className="w-full sm:h-72 lg:h-96  2xl:h-100  3xl:h-110">
         <img
           className="w-full h-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprintarlogo.png"
