@@ -12,7 +12,7 @@ const ServicesCopy = () => {
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl">
           <div className=" py-10 px-8">
-            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-3.svgg" alt="" />
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-3.svg" alt="" />
             <h1 className="text-white text-xl my-4">Flexible and personal, like a
 great freelancer</h1>
             <p className="text-grey text-base md:text-lg">
