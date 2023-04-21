@@ -2,7 +2,7 @@
   "name": "toggle-tech-lab",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
+  "engine": { "node": "16.15.1", "npm": "8.11.0" },
   "dependencies": {
     "@craco/craco": "^6.1.0",
     "@tailwindcss/postcss7-compat": "^2.0.2",
