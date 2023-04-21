@@ -1,7 +1,7 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: false, // or 'media' or 'class'
-  theme: {
+  content: ["./src/**/*.{html,jsx}"],
+   theme: {
     fontFamily: {
       'dual': ['Dual'],
       'body': ['Montserrat']
@@ -63,10 +63,5 @@ module.exports = {
       }
     },
   },
-  variants: {
-    extend: {
-      padding:['hover'],
-    },
-  },
   plugins: [],
-}
+};

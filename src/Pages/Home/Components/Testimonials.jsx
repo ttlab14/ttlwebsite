@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/swiper.min.css'
-import 'swiper/modules/pagination/pagination.min.css'
+// import 'swiper/modules/pagination/pagination.min.css'
 
 const Testimonials = () => {
   const swiperRef = useRef();
