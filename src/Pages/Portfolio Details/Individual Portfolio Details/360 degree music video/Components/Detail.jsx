@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Detail = () => {
   return (
@@ -37,7 +37,7 @@ const Detail = () => {
           design in its entirety.
         </p>
         <p className="text-grey text-base md:text-lg mt-6">
-          > 360-degree videos in VR also provide opportunities for interactive
+          360-degree videos in VR also provide opportunities for interactive
           storytelling. By incorporating interactive elements such as clickable
           hotspots, users can control their experience and engage with the
           content on a deeper level. This makes the experience more personalized
@@ -66,12 +66,19 @@ const Detail = () => {
           Built for Meta Quest 1 & 2 using Unity Engine
         </h1>
         <div className="flex sm:flex-row flex-col gap-5 items-center">
-                 <iframe width="70%" height="500px" src="https://www.youtube.com/embed/2GnSmbsuGG4?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+          <iframe
+            width="70%"
+            height="500px"
+            src="https://www.youtube.com/embed/2GnSmbsuGG4?start=6"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Detail
+export default Detail;
