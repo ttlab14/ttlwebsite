@@ -40,58 +40,54 @@ const Detail = () => {
          </p>
       </div>
 
-      <div className="mb-16">
+      <div className="mb-8">
         <h1 className="text-white text-xl md:text-2xl mb-8">
           Try it out
         </h1>
-        </div>
-      <div 
-          className="flex sm:flex-row flex-col gap-5 items-center"
-        >
-          <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-            src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/ukraine_ar.jpeg"
-            alt=""
-            style={{width:"30%"}}
-
-          />
-          <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-            src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/QRCode.jpeg"
-            alt=""
-            style={{width:"23%"}}
-          />
-        </div>
-        
-      <div className="mb-16">
-        <h1 className="text-white text-xl md:text-2xl mb-8">
-          Web AR experience built using Unity Engine
-        </h1>
-        </div>
-        <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
-        <img
-            className="w-full h-full object-fill"
-            src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art1-min.PNG"
-            alt=""
-          />
-        </div>
-        <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
-        <img
-            className="w-full h-full object-fill"
-            src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art2-min.PNG"
-            alt=""
-          />
-        </div>
-
-<div className="flex sm:flex-row flex-col gap-5 items-center my-5">
-        <img
-            className="w-full h-full object-fill"
-            src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art3-min.PNG"
-            alt=""
-          />
-        </div>
-        
       </div>
+      <div 
+        className="flex sm:flex-row flex-col gap-3 items-center mb-16"
+      >
+        <img
+          className="sm:w-[57%] w-9/12 h-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/ukraine_ar.jpeg"
+          alt=""
+        />
+        <img
+          className="sm:w-[43%] w-9/12 h-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/QRCode.jpeg"
+          alt=""
+        />
+      </div>
+
+      <div className="mb-8">
+      <h1 className="text-white text-xl md:text-2xl mb-8">
+        Web AR experience built using Unity Engine
+      </h1>
+      </div>
+      <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
+      <img
+          className="w-full h-full object-fill"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art1-min.PNG"
+          alt=""
+        />
+      </div>
+      <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
+        <img
+          className="w-full h-full object-fill"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art2-min.PNG"
+          alt=""
+        />
+      </div>
+
+      <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
+      <img
+          className="w-full h-full object-fill"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art3-min.PNG"
+          alt=""
+        />
+      </div>
+    </div>
       
     
   );

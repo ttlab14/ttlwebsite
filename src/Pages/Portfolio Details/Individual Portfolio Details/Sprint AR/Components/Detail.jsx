@@ -40,45 +40,45 @@ const Detail = () => {
           App can be found <a href="https://apps.apple.com/us/app/sprint-ar/id1618259372?platform=iphone">here</a>
           </p>
       </div>
-      <div className="mb-16">
+      <div className="mb-1">
         <h1 className="text-white text-xl md:text-2xl mb-8">
           Built for iPhone
         </h1>
-        <div  className="flex sm:flex-row flex-col gap-5 items-center">
-        <img
-          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint0.PNG"
-          alt=""
-        />
-        <img
-          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint5.PNG"
-          alt=""
-        />
+        <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint0.PNG"
+            alt=""
+          />
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint5.PNG"
+            alt=""
+          />
         </div>
 
-         <div  className="flex sm:flex-row flex-col gap-5 items-center">
-        <img
-          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint1.PNG"
-          alt=""
-        />
-        <img
-          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint4.PNG"
-          alt=""
-        />
+        <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint1.PNG"
+            alt=""
+          />
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint4.PNG"
+            alt=""
+          />
         </div> 
       </div>
-      <div className="mb-16">
-      <div  className="flex items-center">
-        <img
-          className="w-full h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint3.PNG"
-          alt=""
-        />
+
+      <div className="">
+        <div  className="flex items-center">
+          <img
+            className="w-full h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint3.PNG"
+            alt=""
+          />
         </div>
-        
       </div>
     </div>
   );

@@ -30,17 +30,17 @@ const Detail = () => {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-12 items-center my-20">
         <div>
-          <img src="/images/About/Upwork.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/AboutPage/Upwork-min.png" alt="" />
         </div>
         <div>
-          <img src="/images/About/XR Today.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/AboutPage/XR+Today-min.png" alt="" />
         </div>
         <div>
-          <img src="/images/About/Rising Star.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/AboutPage/Rising+Star-min.png" alt="" />
         </div>
         <div>
           {" "}
-          <img src="/images/About/Venture Labs.png" alt="" />
+          <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/AboutPage/Venture+Labs-min.png" alt="" />
         </div>
       </div>
     </div>

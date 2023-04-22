@@ -53,15 +53,14 @@ const Detail = () => {
           Built for Meta Quest 1 & 2 using Unity Engine https://www.youtube.com/watch?v=BiusdZYvxmU
         </h1>
       </div>
-     
       
-      <div  className="flex flex-row space-x-2.5">
+      <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2">
         <div>
           <img
           className="w-full h-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar0.PNG"
           alt=""
-        />
+          />
         </div> 
 
         <div>
@@ -69,75 +68,64 @@ const Detail = () => {
           className="w-25rem h-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar2.PNG"
           alt=""
-        />
+          />
         </div> 
-          </div>
+      </div>
 
-          <div  className="flex flex-row space-x-2.5 my-2">
+      <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 sm:my-3 my-2">
         <div>
           <img
-          className="w-full h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar7.PNGg"
-          alt=""
-        />
-        </div> 
-
-        <div>
-          <img
-          className="w-full h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar8.PNG"
-          alt=""
-        />
-        </div> 
-          </div>
-
-
-
-
-
-
-
-
-
-          <div  className="flex flex-row space-x-2.5 my-2">
-        <div>
-          <img
-          className="w-full h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar3.PNG"
-          alt=""
-        />
+            className="w-full h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar7.PNG"
+            alt=""
+          />
         </div> 
 
         <div>
           <img
-          className="w-full h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar4.PNG"
-          alt=""
-        />
+            className="w-full h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar8.PNG"
+            alt=""
+          />
         </div> 
-          </div>
+      </div>
 
-          
-
-
-          <div  className="flex flex-row space-x-2.5 my-2">
+      <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 sm:my-3 my-2">
         <div>
           <img
-          className="w-full h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar5.PNG"
-          alt=""
-        />
+            className="w-full h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar3.PNG"
+            alt=""
+          />
         </div> 
 
         <div>
           <img
-          className="w-full h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar6.PNG"
-          alt=""
-        />
+            className="w-full h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar4.PNG"
+            alt=""
+          />
         </div> 
-          </div>
-          </div>
+      </div>
+
+      <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2">
+    <div>
+      <img
+      className="w-full h-full object-contain"
+      src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar5.PNG"
+      alt=""
+    />
+    </div> 
+
+    <div>
+      <img
+      className="w-full h-full object-contain"
+      src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar6.PNG"
+      alt=""
+    />
+    </div> 
+      </div>
+    </div>
 
   );
 };

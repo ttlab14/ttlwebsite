@@ -48,47 +48,46 @@ In conclusion, Frito Lay's carnival-style web game is an excellent example of ho
         <h1 className="text-white text-xl md:text-2xl mb-8">
           Built for PC, Tablet, & Mobile
         </h1>
-        <div  className="flex sm:flex-row flex-col gap-5 items-center">
-        <img
-          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/1-min.PNG"
-          alt=""
-        />
-        <img
-          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester2-min.PNG"
-          alt=""
-        />
-        </div>
-     
-    
-        <div  className="flex sm:flex-row flex-col gap-5 items-center my-5">
-        <img
-          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester3-min.PNG"
-          alt=""
-        />
-        <img
-          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester4-min.PNG"
-          alt=""
-        />
+        <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center">
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/1-min.PNG"
+            alt=""
+          />
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester2-min.PNG"
+            alt=""
+          />
         </div>
 
-        <div  className="flex sm:flex-row flex-col gap-5 items-center my-5">
-        <img
-          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester6-min.PNG"
-          alt=""
-        />
-        <img
-          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester7-min.PNG"
-          alt=""
-        />
+        <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester3-min.PNG"
+            alt=""
+          />
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester4-min.PNG"
+            alt=""
+          />
         </div>
 
-        <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
+        <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester6-min.PNG"
+            alt=""
+          />
+          <img
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester7-min.PNG"
+            alt=""
+          />
+        </div>
+
+        <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
         <img
             className="w-full h-full object-fill"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester5-min.PNG"

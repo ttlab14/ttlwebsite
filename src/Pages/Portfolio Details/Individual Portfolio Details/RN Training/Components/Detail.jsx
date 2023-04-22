@@ -31,14 +31,12 @@ const Detail = () => {
         
         </p>
       </div>
-      <div className="mb-16">
+      <div className="mb-3">
         <h1 className="text-white text-xl md:text-2xl mb-8">
           Built for Meta Quest 1 & 2 using Unity Engine
         </h1>
         <h1 className="text-white text-xl md:text-2xl mb-8">Results</h1>
-        <div 
-          className="flex sm:flex-row flex-col gap-5 items-center"
-        >
+        <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center">
           <img
             className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/VRRN/vrrn1.jpeg"
@@ -50,10 +48,10 @@ const Detail = () => {
             alt=""
           />
         </div>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
-        <p className="text-grey text-base md:text-lg mt-6"></p>
+        <p className="text-grey text-base md:text-lg mt-3"></p>
+        <p className="text-grey text-base md:text-lg mt-3"></p>
       </div>
-      <div className="mb-16">
+      <div className="">
         {/* <h1 className="text-white text-xl md:text-2xl mb-8">Results</h1> */}
         <div className="flex items-center sm:justify-start justify-center gap-5">
           <img

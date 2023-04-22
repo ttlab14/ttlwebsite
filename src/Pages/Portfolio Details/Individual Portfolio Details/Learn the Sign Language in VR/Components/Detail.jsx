@@ -52,12 +52,12 @@ The psychological distance between the learner and the teacher is greater than i
         <img
           className="w-full h-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/SignLanguageVR/space2.png"
-           alt=""
+          alt=""
         />
         </div>
         
       </div>
-      <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
+      <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
           <img
             className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/SignLanguageVR/signlang3.PNG"
@@ -68,39 +68,48 @@ The psychological distance between the learner and the teacher is greater than i
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/SignLanguageVR/signlang4.PNG"
             alt=""
           />
-        </div>
+      </div>
 
-        <div className="flex sm:flex-row flex-col gap-5 items-center">
-          <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SignLanguageVR/signlang2.PNG"
-            alt=""
-          />
-          <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SignLanguageVR/signlang5.PNG"
-            alt=""
-          />
-        </div>
+      <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
+        <img
+          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SignLanguageVR/signlang2.PNG"
+          alt=""
+        />
+        <img
+          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SignLanguageVR/signlang5.PNG"
+          alt=""
+        />
+      </div>
 
-       
-
-        <div className="flex sm:flex-row flex-col gap-5 items-center">
-        <iframe
+      <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center">
+        {/* <iframe
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/SignLanguageVR/signlanggif1.gif"
           width="650"
           height="650"
-allowFullScreen
-/>
-<iframe
+          allowFullScreen
+          title="signlanggif1"
+        />
+        <iframe
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/SignLanguageVR/signlanggif2.gif"
           width="650"
           height="650"
-allowFullScreen
-/>
-        </div>
-          
+          allowFullScreen
+          title="signlanggif2"
+        /> */}
+        <img 
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SignLanguageVR/signlanggif1.gif"
+          alt="gif"
+          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+        />
+        <img 
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SignLanguageVR/signlanggif2.gif"
+          alt="gif"
+          className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+        />
       </div>
+    </div>
   );
 };
 

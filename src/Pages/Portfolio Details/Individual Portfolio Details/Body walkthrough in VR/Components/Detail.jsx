@@ -32,12 +32,12 @@ const Detail = () => {
     out into key organs of the body relevant to the patient’s diagnosis.
         </p>
       </div>
-      <div className="mb-16">
+      <div className="mb-3">
         <h1 className="text-white text-xl md:text-2xl mb-8">
           Built for Meta Quest 1 & 2 using Unreal Engine 4
         </h1>
 
-        <div className="flex sm:flex-row flex-col gap-5 items-center">
+        <div className="flex sm:flex-row flex-col gap-3 items-center">
           <img
             className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/BodyWalkThrough/bodywalkthrough2.PNG"
@@ -50,20 +50,25 @@ const Detail = () => {
             alt=""
           />
         </div>
-       
       </div>
-      <div  className="flex flex-row space-x-2.5">
+      <div  className="flex flex-row space-x-2.5 justify-start">
         <div>
-        <iframe
+        {/* <iframe
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/BodyWalkThrough/walkthroughgif1.gif"
           width="650"
           height="650"
-allowFullScreen
-/>
+          allowFullScreen
+          title="walkthroughgif1"
+        /> */}
+        <img 
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/BodyWalkThrough/walkthroughgif1.gif"
+          alt="gif"
+          width="650"
+          height="650" 
+        />
         </div> 
+      </div>
 
-     
-          </div>
       <div className="flex items-center">
 
         </div>

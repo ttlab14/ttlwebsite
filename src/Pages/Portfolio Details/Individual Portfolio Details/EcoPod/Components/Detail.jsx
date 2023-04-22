@@ -104,8 +104,15 @@ create what we believe will be a very special floating community of eco-restorat
         <h1 className="text-white text-xl md:text-2xl mb-8">Results</h1>
         <div className="w-full">
           {/* video here: ecopodvr.mp4 */}
-          <video controls className="cursor-pointer">
-            <source src="https://toggletechlab.s3.us-east-2.amazonaws.com/EcoPod/ecopodvr.mp4" type="video/mp4" />
+          <video 
+            controls
+            className="cursor-pointer"
+            poster="/images/thumnails/thumb.PNG"
+          >
+            <source 
+              src="https://toggletechlab.s3.us-east-2.amazonaws.com/EcoPod/ecopodvr.mp4" 
+              type="video/mp4" 
+            />
           </video>
         </div>
         

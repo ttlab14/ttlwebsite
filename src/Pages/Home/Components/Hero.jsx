@@ -7,12 +7,11 @@ const Hero = ({ handleClickScroll }) => {
     <div className="relative h-screen overflow-x-hidden">
     {/*    <img className="w-full hidden sm:block" src="/images/Home/Hero.png" alt="" />
       <img className="w-full sm:hidden" src="/images/Home/Hero Mobile.png" alt="" /> */}
-       <video
+      <video
         autoPlay
         muted
         loop
         className="w-screen h-screen md:object-cover object-fill bg-black opacity-30 z-0"
-        controls="controls"
       >
         <source src="https://toggletechlab.s3.us-east-2.amazonaws.com/header_video.mp4" type="video/mp4" />
       </video> 
