@@ -54,12 +54,15 @@ const Sidebar = () => {
             </li>
             <li>
             <div className="text-grey">
-                <a href="https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf" target="_blank">
+              <a 
+                href="https://furi.engineering.asu.edu/wp-content/uploads/2022/03/Gil-Ruiz.pdf"
+                rel="noreferrer" 
+                target="_blank"
+              >
                 PROVIDING COMPREHENSIVE THERAPY FOR CHILDREN WITH AUTISM SPECTRUM DISORDER BY USING A VIRTUAL REALITY
-APPLICATION
-                </a>
-
-              </div>
+                APPLICATION
+              </a>
+            </div>
             </li>
             <li className="text-gold">
               <div className="text-grey">

@@ -1,5 +1,5 @@
 import React from "react";
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import { TwitterTweetEmbed } from 'react-twitter-embed';
 const Detail = () => {
   return (
     <div>
@@ -54,7 +54,7 @@ Tweet here
         <div  className="flex flex-row space-x-2.5">
         <div>
           <img
-          className="w-full h-full object-contain"
+          className="w-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/splashscreen.PNG"
           alt=""
         />
@@ -62,14 +62,14 @@ Tweet here
 
           <div>
           <img
-          className="w-full h-full object-contain"
+          className="w-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/welcome.jpeg"
           alt=""
         />
           </div>
           <div>
           <img
-          className="w-full h-full object-contain"
+          className="w-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step_1_a.jpeg"
           alt=""
         />
@@ -77,7 +77,7 @@ Tweet here
 
           <div>
           <img
-          className="w-full h-full object-contain"
+          className="w-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step_2_a.jpeg"
           alt=""
         />
@@ -93,7 +93,7 @@ Tweet here
 
           <div>
           <img
-          className="w-full h-full object-contain"
+          className="w-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step_3_a.jpeg"
           alt=""
         />
@@ -101,14 +101,14 @@ Tweet here
            
           <div>
           <img
-          className="w-full h-full object-contain"
+          className="w-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step_4_a.jpeg"
           alt=""
         />
           </div>
           <div>
           <img
-          className="w-full h-full object-contain"
+          className="w-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step_5_a.jpeg"
           alt=""
         />
@@ -116,7 +116,7 @@ Tweet here
           
           <div>
           <img
-          className="w-full h-full object-contain"
+          className="w-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step_5_a.jpeg"
           alt=""
         />
@@ -131,28 +131,28 @@ Tweet here
         <div  className="flex flex-row space-x-2.5">
         <div>
           <img
-          className="w-full h-full object-contain"
+          className="w-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/welcome.jpeg"
           alt=""
         />
           </div>
           <div>
           <img
-          className="w-full h-full object-contain"
+          className="w-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step1.jpeg"
           alt=""
         />
           </div>
           <div>
           <img
-          className="w-full h-full object-contain"
+          className="w-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step2.jpeg"
           alt=""
         />
           </div>
           <div>
           <img
-          className="w-full h-full object-contain"
+          className="w-full object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/step3.jpeg"
           alt=""
         />

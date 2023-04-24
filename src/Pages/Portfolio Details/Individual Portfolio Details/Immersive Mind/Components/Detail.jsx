@@ -33,7 +33,7 @@ const Detail = () => {
         
       </div>
       <div className="mb-16">
-        <h1 className="text-white text-xl md:text-2xl mb-8"></h1>
+        {/* <h1 className="text-white text-xl md:text-2xl mb-8"></h1> */}
       <div  className="flex items-center">
         
         </div>

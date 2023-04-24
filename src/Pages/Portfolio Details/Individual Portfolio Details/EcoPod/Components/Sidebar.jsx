@@ -49,15 +49,21 @@ const Sidebar = () => {
 
           <li className="text-gold">
             <div className="text-grey">
-                <a href="https://oceanbuilders.com/" target="_blank">
+                <a href="https://oceanbuilders.com/" rel="noreferrer" target="_blank">
                    Ocean Builders</a>
               </div>
             </li>   
             
             <li className="text-gold">
-            <div className="text-grey">
-                <a href="https://www.businessinsider.com/take-a-look-floating-pods-panama-costing-millions-2022-8#ocean-builders-uses-steel-tubes-to-create-the-floating-homes-3-meters-above-the-water-in-panamas-linton-bay-marina-5" target="_blank">
-                Want to live in a home that seems to float above the sea? Take a look at these 'living pods' being built in Panama</a>
+              <div className="text-grey">
+                <a 
+                  href="https://www.businessinsider.com/take-a-look-floating-pods-panama-costing-millions-2022-8#ocean-builders-uses-steel-tubes-to-create-the-floating-homes-3-meters-above-the-water-in-panamas-linton-bay-marina-5" 
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Want to live in a home that seems to float above the sea? 
+                  Take a look at these 'living pods' being built in Panama
+                </a>
               </div>
             </li>   
 

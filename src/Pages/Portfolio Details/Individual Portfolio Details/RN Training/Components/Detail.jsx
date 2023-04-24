@@ -38,12 +38,12 @@ const Detail = () => {
         <h1 className="text-white text-xl md:text-2xl mb-8">Results</h1>
         <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center">
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/VRRN/vrrn1.jpeg"
             alt=""
           />
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/VRRN/vrrn3.jpeg"
             alt=""
           />
@@ -55,7 +55,7 @@ const Detail = () => {
         {/* <h1 className="text-white text-xl md:text-2xl mb-8">Results</h1> */}
         <div className="flex items-center sm:justify-start justify-center gap-5">
           <img
-            className="xl:w-8/12 lg:w-9/12 md:w-8/12 sm:w-9/12 xs:w-8/12 w-full h-full object-contain"
+            className="xl:w-8/12 lg:w-9/12 md:w-8/12 sm:w-9/12 xs:w-8/12 w-full object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/VRRN/vrrn2.jpg"
             alt=""
           />

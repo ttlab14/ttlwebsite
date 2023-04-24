@@ -39,13 +39,13 @@ const Detail = () => {
 
         <div className="flex sm:flex-row flex-col gap-3 items-center">
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/BodyWalkThrough/bodywalkthrough2.PNG"
             alt=""
             ContentType = "image/jpeg"
           />
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/BodyWalkThrough/bodywalkthrough3.PNG"
             alt=""
           />

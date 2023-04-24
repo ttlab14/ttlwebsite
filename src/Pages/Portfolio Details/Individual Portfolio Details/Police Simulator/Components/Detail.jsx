@@ -35,12 +35,12 @@ const Detail = () => {
         <h1 className="text-white text-xl md:text-2xl mb-8">Results </h1>
         <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center">
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p2-min.png"
             alt=""
           />
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p1-min.png"
             alt=""
           />
@@ -48,12 +48,12 @@ const Detail = () => {
 
         <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p3-min.png"
             alt=""
           />
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p4-min.png"
             alt=""
           />
@@ -61,19 +61,23 @@ const Detail = () => {
 
         <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p5-min.PNG"
             alt=""
           />
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/p6-min.PNG"
             alt=""
           />
         </div>
 
         <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
-          <video controls className="cursor-pointer">
+          <video 
+            controls
+            poster="/images/thumnails/police-thumb.PNG"
+            className="cursor-pointer"
+          >
             <source 
               src="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/policesimvideo1.mov" 
               type="video/mp4" 

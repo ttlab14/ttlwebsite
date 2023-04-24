@@ -39,7 +39,7 @@ In addition to promoting brand engagement, these games can also generate valuabl
 In conclusion, Frito Lay's carnival-style web game is an excellent example of how brand engagement games can be a highly effective tool for marketers looking to engage consumers and build brand relationships in a fun and interactive way. The game is accessible, engaging, and offers players the chance to win valuable prizes. By incorporating the Frito Lay brand into the gameplay, the game increases brand awareness and promotes positive associations with the brand. Overall, brand engagement games are a powerful marketing tool that can help businesses connect with their target audience in a meaningful way.
 </p>
 <p className="text-grey text-base md:text-lg mt-6">
-<a href="https://chestergame.netlify.app/" target="_blank" >
+<a href="https://chestergame.netlify.app/" rel="noreferrer" target="_blank" >
       Play the game here </a> 
 </p>
 
@@ -50,12 +50,12 @@ In conclusion, Frito Lay's carnival-style web game is an excellent example of ho
         </h1>
         <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center">
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/1-min.PNG"
             alt=""
           />
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester2-min.PNG"
             alt=""
           />
@@ -63,12 +63,12 @@ In conclusion, Frito Lay's carnival-style web game is an excellent example of ho
 
         <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester3-min.PNG"
             alt=""
           />
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester4-min.PNG"
             alt=""
           />
@@ -76,12 +76,12 @@ In conclusion, Frito Lay's carnival-style web game is an excellent example of ho
 
         <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester6-min.PNG"
             alt=""
           />
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester7-min.PNG"
             alt=""
           />
@@ -89,7 +89,7 @@ In conclusion, Frito Lay's carnival-style web game is an excellent example of ho
 
         <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
         <img
-            className="w-full h-full object-fill"
+            className="w-full object-fill"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/chester5-min.PNG"
             alt=""
           />

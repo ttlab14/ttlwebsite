@@ -50,7 +50,13 @@ const Sidebar = () => {
             </li>
             <li className="text-gold">
               <div className="text-grey">
-             <a href="https://www.innovationinbusiness.com/how-the-metaverse-will-impact-customer-service/" target="_blank">How the Metaverse Will Impact Customer Service</a>
+                <a 
+                  href="https://www.innovationinbusiness.com/how-the-metaverse-will-impact-customer-service/" 
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  How the Metaverse Will Impact Customer Service
+                </a>
               </div>
             </li>
           </ul>

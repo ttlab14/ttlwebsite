@@ -46,15 +46,15 @@ const Detail = () => {
         </h1>
       </div>
       <div 
-        className="flex sm:flex-row flex-col gap-3 items-center mb-16"
+        className="flex sm:flex-row flex-col gap-2 items-center mb-16"
       >
         <img
-          className="sm:w-[57%] w-9/12 h-full object-contain"
+          className="sm:w-[57%] w-9/12 object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/ukraine_ar.jpeg"
           alt=""
         />
         <img
-          className="sm:w-[43%] w-9/12 h-full object-contain"
+          className="sm:w-[43%] w-9/12 object-contain"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/QRCode.jpeg"
           alt=""
         />
@@ -65,24 +65,24 @@ const Detail = () => {
         Web AR experience built using Unity Engine
       </h1>
       </div>
-      <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
+      <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
       <img
-          className="w-full h-full object-fill"
+          className="w-full object-fill"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art1-min.PNG"
           alt=""
         />
       </div>
-      <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
+      <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
         <img
-          className="w-full h-full object-fill"
+          className="w-full object-fill"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art2-min.PNG"
           alt=""
         />
       </div>
 
-      <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
+      <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
       <img
-          className="w-full h-full object-fill"
+          className="w-full object-fill"
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art3-min.PNG"
           alt=""
         />

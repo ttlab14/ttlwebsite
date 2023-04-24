@@ -45,17 +45,20 @@ const Sidebar = () => {
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
           <li className="text-gold">
               <div className="text-grey">
-              <a href="https://www.gonoble.com/"target="_blank">
+              <a href="https://www.gonoble.com/" rel="noreferrer" target="_blank">
               Noble: Autoinjector - Drug Delivery Training Devices</a> 
               </div>
             </li>
             <li className="text-gold">
             <div className="text-grey">
-                <a href="https://www.gonoble.com/autoinjector-training-devices/" target="_blank">
-Autoinjector Training Devices
-                </a>
-
-              </div>
+              <a 
+                href="https://www.gonoble.com/autoinjector-training-devices/"
+                rel="noreferrer" 
+                target="_blank"
+              >
+                Autoinjector Training Devices
+              </a>
+            </div>
             </li>
             <li className="text-gold">
               <div className="text-grey">

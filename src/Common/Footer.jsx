@@ -11,7 +11,7 @@ const Footer = () => {
         {/* <Link to='/' className="mr-4">Privacy Policy</Link>
         <Link to='/' className="mr-4">Terms & Conditions</Link> */}
         <div className="rounded-full border border-dark-grey mr-3 w-10 h-10 flex items-center justify-center">
-          <a href="https://twitter.com/toggletechlab" target="_blank" >
+          <a href="https://twitter.com/toggletechlab" rel="noreferrer" target="_blank" >
  <img className="w-2/2" src="/icons/twitter.svg" alt="" />
       </a> 
           </div>
@@ -21,12 +21,13 @@ const Footer = () => {
           </div>
            */} 
           <div className="rounded-full border border-dark-grey mr-3 w-10 h-10 flex items-center justify-center">
-          <a href="https://www.linkedin.com/company/toggle-tech-lab" target="_blank" >
+          <a href="https://www.linkedin.com/company/toggle-tech-lab" rel="noreferrer" target="_blank" >
             <img className="w-2/2" src="/icons/linkedIn.svg" alt="" />
             </a>
           </div>
           <div className="rounded-full border border-dark-grey mr-3 w-10 h-10 flex items-center justify-center">
-          <a href="https://wa.me/+16044045571" 
+          <a href="https://wa.me/+16044045571"
+          rel="noreferrer" 
           target="_blank" >
             <img className="w-2/2" src="/icons/whatsapp.svg" alt="" />
             </a>

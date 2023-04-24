@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,jsx}"],
-   theme: {
+  theme: {
     fontFamily: {
       'dual': ['Dual'],
       'body': ['Montserrat']

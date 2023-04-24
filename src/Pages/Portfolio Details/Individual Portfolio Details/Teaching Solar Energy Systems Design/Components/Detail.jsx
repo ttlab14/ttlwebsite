@@ -54,20 +54,20 @@ const Detail = () => {
         </h1>
       </div>
       
-      <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2">
+      <div className="flex sm:flex-row flex-col sm:gap-3 gap-2">
         <div>
           <img
-          className="w-full h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar0.PNG"
-          alt=""
+            className="object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar0.PNG"
+            alt=""
           />
         </div> 
 
         <div>
           <img
-          className="w-25rem h-full object-contain"
-          src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar2.PNG"
-          alt=""
+            className="w-25rem object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar2.PNG"
+            alt=""
           />
         </div> 
       </div>
@@ -75,7 +75,7 @@ const Detail = () => {
       <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 sm:my-3 my-2">
         <div>
           <img
-            className="w-full h-full object-contain"
+            className="w-full object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar7.PNG"
             alt=""
           />
@@ -83,7 +83,7 @@ const Detail = () => {
 
         <div>
           <img
-            className="w-full h-full object-contain"
+            className="w-full object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar8.PNG"
             alt=""
           />
@@ -93,7 +93,7 @@ const Detail = () => {
       <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 sm:my-3 my-2">
         <div>
           <img
-            className="w-full h-full object-contain"
+            className="w-full object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar3.PNG"
             alt=""
           />
@@ -101,7 +101,7 @@ const Detail = () => {
 
         <div>
           <img
-            className="w-full h-full object-contain"
+            className="w-full object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar4.PNG"
             alt=""
           />
@@ -109,21 +109,21 @@ const Detail = () => {
       </div>
 
       <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2">
-    <div>
-      <img
-      className="w-full h-full object-contain"
-      src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar5.PNG"
-      alt=""
-    />
-    </div> 
+        <div>
+          <img
+            className="w-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar5.PNG"
+            alt=""
+          />
+        </div> 
 
-    <div>
-      <img
-      className="w-full h-full object-contain"
-      src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar6.PNG"
-      alt=""
-    />
-    </div> 
+        <div>
+          <img
+            className="w-full object-contain"
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar6.PNG"
+            alt=""
+          />
+        </div> 
       </div>
     </div>
 

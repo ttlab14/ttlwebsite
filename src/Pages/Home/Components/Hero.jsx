@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom"
-import React from "react"
-import YouTubeToHtml5 from "@thelevicole/youtube-to-html5-loader"
 
-const Hero = ({ handleClickScroll }) => {
+const Hero = ({handleClickScroll}) => {
   return (
     <div className="relative h-screen overflow-x-hidden">
     {/*    <img className="w-full hidden sm:block" src="/images/Home/Hero.png" alt="" />
@@ -13,7 +11,10 @@ const Hero = ({ handleClickScroll }) => {
         loop
         className="w-screen h-screen md:object-cover object-fill bg-black opacity-30 z-0"
       >
-        <source src="https://toggletechlab.s3.us-east-2.amazonaws.com/header_video.mp4" type="video/mp4" />
+        <source 
+          src="https://toggletechlab.s3.us-east-2.amazonaws.com/header_video.mp4" 
+          type="video/mp4" 
+        />
       </video> 
       
       <div className="absolute top-36 md:top-1/4 w-full 2xl:top-1/3">

@@ -41,22 +41,25 @@ const LetsTalk = () => {
           <div className="flex">
             <div>
               <div className="rounded-full border border-dark-grey mr-3 w-14 h-14 flex items-center justify-center">
-              <a href="https://twitter.com/toggletechlab" target="_blank" >
+              <a href="https://twitter.com/toggletechlab" rel="noreferrer" target="_blank" >
                 <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/twitter.svg" alt="" />
                 </a>
               </div>
             </div>
             <div>
               <div className="rounded-full border border-dark-grey mr-3 w-14 h-14 flex items-center justify-center">
-              <a href="https://wa.me/+16044045571" 
-          target="_blank" >
-                <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/whatsapp.svg" alt="" />
+                <a 
+                  href="https://wa.me/+16044045571" 
+                  rel="noreferrer"
+                  target="_blank" 
+                >
+                  <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/whatsapp.svg" alt="" />
                 </a>
               </div>
             </div>
             <div>
               <div className="rounded-full border border-dark-grey mr-3 w-14 h-14 flex items-center justify-center">
-              <a href="https://www.linkedin.com/company/toggle-tech-lab" target="_blank" >
+              <a href="https://www.linkedin.com/company/toggle-tech-lab" rel="noreferrer" target="_blank" >
                 <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/linkedIn.svg" alt="" />
                 </a>
               </div>

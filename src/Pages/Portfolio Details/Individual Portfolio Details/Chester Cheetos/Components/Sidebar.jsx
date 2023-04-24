@@ -44,7 +44,7 @@ PC, Tablet and Mobile
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
           <li className="text-gold">
               <div className="text-grey">
-                <a href="https://www.tastyrewards.com/en-ca" target="_blank">
+                <a href="https://www.tastyrewards.com/en-ca" rel="noreferrer" target="_blank">
                 Tasty Rewards</a> 
 
               </div>
@@ -52,7 +52,7 @@ PC, Tablet and Mobile
             
             <li className="text-gold">
               <div className="text-grey">
-                <a href="https://chestergame.netlify.app/" target="_blank">
+                <a href="https://chestergame.netlify.app/" rel="noreferrer" target="_blank">
                 Play the game here </a> 
               </div>
             </li>

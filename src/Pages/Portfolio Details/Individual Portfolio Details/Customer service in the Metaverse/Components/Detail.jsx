@@ -55,9 +55,16 @@ developers for making it possible!
           Built for the web using Unity Engine, JavaScript and Python
         </h1>
         <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
-        <video controls className="cursor-pointer">
-            <source src="https://toggletechlab.s3.us-east-2.amazonaws.com/CustomerServiceMetaverse/DCL_Voctiv_Talk.mp4" type="video/mp4" />
-          </video>
+        <video 
+          controls
+          poster="/images/thumnails/customer-thumb.PNG"
+          className="cursor-pointer"
+        >
+          <source 
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/CustomerServiceMetaverse/DCL_Voctiv_Talk.mp4" 
+            type="video/mp4" 
+          />
+        </video>
         </div>
 
         

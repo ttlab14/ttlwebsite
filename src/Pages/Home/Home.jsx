@@ -1,4 +1,3 @@
-import React from "react";
 import Hero from "./Components/Hero";
 import Partners from "../../Common/Partners";
 import Build from "./Components/Build";

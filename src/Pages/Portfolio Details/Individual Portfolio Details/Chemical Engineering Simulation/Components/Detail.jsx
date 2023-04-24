@@ -52,13 +52,20 @@ const Detail = () => {
         <h1 className="text-white text-xl md:text-2xl mb-8">
           Built for the Web using Unity Engine
         </h1>
-        <h1 className="text-white text-xl md:text-2xl mb-8">Results </h1>
+        <h1 className="text-white text-xl md:text-2xl mb-8">Results</h1>
       </div>
       <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
-        <video controls className="cursor-pointer">
-            <source src="https://toggletechlab.s3.us-east-2.amazonaws.com/ChemicalEngineeringSimulation/VirtualLab.mp4" type="video/mp4" />
-          </video>
-        </div>     
+        <video 
+          controls
+          poster="/images/thumnails/chemical-thumb.PNG"
+          className="cursor-pointer"
+        >
+          <source 
+            src="https://toggletechlab.s3.us-east-2.amazonaws.com/ChemicalEngineeringSimulation/VirtualLab.mp4" 
+            type="video/mp4" 
+          />
+        </video>
+      </div>     
       </div>
   
   );

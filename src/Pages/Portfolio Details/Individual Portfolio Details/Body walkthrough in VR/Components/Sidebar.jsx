@@ -45,8 +45,13 @@ const Sidebar = () => {
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
           <li className="text-gold">
               <div className="text-grey">
-              <a href="https://www.news-medical.net/health/Applications-of-Virtual-Reality-in-Medicine.aspx"target="_blank">
-              Applications of Virtual Reality in Medicine​</a> 
+                <a 
+                  href="https://www.news-medical.net/health/Applications-of-Virtual-Reality-in-Medicine.aspx"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Applications of Virtual Reality in Medicine
+                ​</a> 
               </div>
             </li>
           </ul>

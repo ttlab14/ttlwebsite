@@ -45,17 +45,25 @@ const Sidebar = () => {
           <ul className="text-grey text-base md:text-lg marker:text-red-800 list-disc ml-4">
             <li className="text-gold">
               <div className="text-grey">
-                <a href="https://ieeexplore.ieee.org/document/9766460" target="_blank">
-                Teaching Solar Energy Systems Design using Game-Based Virtual Reality
+                <a 
+                  href="https://ieeexplore.ieee.org/document/9766460"
+                  rel="noreferrer" 
+                  target="_blank"
+                >
+                  Teaching Solar Energy Systems Design using Game-Based Virtual Reality
                 </a>
 
               </div>
             </li>
             <li className="text-gold">
               <div className="text-grey">
-              <a href="https://www.researchgate.net/publication/360546528_Teaching_Solar_Energy_Systems_Design_using_Game-Based_Virtual_Reality" target="_blank">
-              Teaching Solar Energy Systems Design using Game-Based Virtual Reality                </a>
-             
+                <a 
+                  href="https://www.researchgate.net/publication/360546528_Teaching_Solar_Energy_Systems_Design_using_Game-Based_Virtual_Reality" 
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Teaching Solar Energy Systems Design using Game-Based Virtual Reality
+                </a>
               </div>
             </li>
           </ul>

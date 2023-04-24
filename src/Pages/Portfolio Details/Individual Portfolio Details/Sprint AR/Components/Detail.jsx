@@ -46,12 +46,12 @@ const Detail = () => {
         </h1>
         <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint0.PNG"
             alt=""
           />
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint5.PNG"
             alt=""
           />
@@ -59,12 +59,12 @@ const Detail = () => {
 
         <div  className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint1.PNG"
             alt=""
           />
           <img
-            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
+            className="lg:w-7/12 sm:w-6/12 xs:w-9/12 object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint4.PNG"
             alt=""
           />
@@ -74,7 +74,7 @@ const Detail = () => {
       <div className="">
         <div  className="flex items-center">
           <img
-            className="w-full h-full object-contain"
+            className="w-full object-contain"
             src="https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint3.PNG"
             alt=""
           />
