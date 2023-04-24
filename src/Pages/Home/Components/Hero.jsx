@@ -9,13 +9,18 @@ const Hero = ({handleClickScroll}) => {
         autoPlay
         muted
         loop
-        className="w-screen h-screen md:object-cover object-fill bg-black opacity-30 z-0"
+        className="w-screen h-screen hidden sm:block md:object-cover object-fill bg-black opacity-30 z-0"
       >
         <source 
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/header_video.mp4" 
           type="video/mp4" 
         />
-      </video> 
+      </video>
+      <img 
+        src="/images/mobile-header.png"
+        alt="mobile-header"
+        className="w-screen h-screen sm:hidden block object-cover" 
+      />
       
       <div className="absolute top-36 md:top-1/4 w-full 2xl:top-1/3">
         <div className="w-11/12  md:w-3/4 mx-auto">
