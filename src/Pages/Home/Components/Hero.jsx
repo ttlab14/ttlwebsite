@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
-const Hero = ({handleClickScroll}) => {
+const Hero = ({handleClickScroll, handleHeaderVideo}) => {
   return (
     <div className="relative h-screen overflow-x-hidden">
     {/*    <img className="w-full hidden sm:block" src="/images/Home/Hero.png" alt="" />
@@ -43,11 +43,17 @@ const Hero = ({handleClickScroll}) => {
               >
                 Get Started
               </button>
-              <Link className="block mt-4 md:mt-0 md:inline" to="/portfolio">
+              {/* <Link className="block mt-4 md:mt-0 md:inline" to="/portfolio">
                 <button className="text-gold text-base md:text-lg border-2 border-white rounded-3xl py-2 px-4">
                   Watch a Demo
                 </button>
-              </Link>
+              </Link> */}
+              <button 
+                className="text-gold text-base md:text-lg border-2 border-white rounded-3xl py-2 px-4"
+                onClick={handleHeaderVideo}
+              >
+                Watch a Demo
+              </button>
             </div>
           </div>
         </div>
