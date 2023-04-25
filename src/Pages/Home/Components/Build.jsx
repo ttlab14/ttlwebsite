@@ -2,7 +2,7 @@ import React from "react";
 
 const Build = () => {
   return (
-    <div id="build-section" className="w-11/12  md:w-3/4 mx-auto mt-20 pt-16 border-t border-dark-grey">
+    <div id="build-section" className="w-11/12  md:w-3/4 mx-auto mt-20 pt-16 sm:mb-20 mb-0 border-t border-dark-grey">
       <p className="text-base uppercase text-gold">About Us</p>
       <h1 className="text-white text-2xl md:text-3xl mt-4 mb-8">We build for</h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16 mt-20">

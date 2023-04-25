@@ -2,7 +2,7 @@ import React from "react";
 
 const HeaderVideo = () => {
   return (
-    <div className="w-11/12 lg:w-7/12 md:w-9/12 mx-auto mb-16 pt-20" id="headerVideo-section">
+    <div className="w-11/12 lg:w-7/12 md:w-9/12 mx-auto mb-16 pt-20 sm:hidden block" id="headerVideo-section">
       <video 
         autoPlay
         controls

@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const Hero = ({handleClickScroll, handleHeaderVideo}) => {
   return (
@@ -43,13 +43,14 @@ const Hero = ({handleClickScroll, handleHeaderVideo}) => {
               >
                 Get Started
               </button>
-              {/* <Link className="block mt-4 md:mt-0 md:inline" to="/portfolio">
+              <Link className="mt-4 md:mt-0 sm:block hidden" to="/portfolio">
                 <button className="text-gold text-base md:text-lg border-2 border-white rounded-3xl py-2 px-4">
                   Watch a Demo
                 </button>
-              </Link> */}
+              </Link>
               <button 
-                className="text-gold text-base md:text-lg border-2 border-white rounded-3xl py-2 px-4"
+                className="text-gold text-base md:text-lg border-2 sm:hidden block
+              border-white rounded-3xl py-2 px-4 mt-4"
                 onClick={handleHeaderVideo}
               >
                 Watch a Demo
