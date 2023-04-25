@@ -35,7 +35,7 @@ const Build = () => {
           <div className=" rounded-xl flex flex-col items-center mb-16">
             <div className="relative bottom-8 left-8">
               <img className="w-3/4" src="https://toggletechlab.s3.us-east-2.amazonaws.com/HomePage/We_Build-3.png" alt="" />
-              <p className="text-xl text-white mt-4 ml-8">Pico</p>
+              <p className="text-xl text-white mt-4 ml-8">HTC Vive</p>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ const Build = () => {
           <div className=" rounded-xl flex flex-col items-center">
             <div className="relative bottom-8 left-6">
               <img className="w-3/4" src="https://toggletechlab.s3.us-east-2.amazonaws.com/HomePage/We_Build-5.png" alt="" />
-              <p className="text-xl text-white mt-4 ml-2">Computers</p>
+              <p className="text-xl text-white mt-4 ml-2">Computer</p>
             </div>
           </div>
         </div>
