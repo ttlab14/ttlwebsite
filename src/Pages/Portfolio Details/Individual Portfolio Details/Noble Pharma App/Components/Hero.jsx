@@ -1,4 +1,3 @@
-export default Hero
 
 import React from "react"
 
