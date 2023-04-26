@@ -81,7 +81,7 @@ const Projects = () => {
       {
         type: "Medical Simulations",
         name: "Noble Pharma App",
-        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/splashscreen.PNG",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/noble_pharma_cover.PNG",
         icon: "vr",
       },
       {
@@ -144,7 +144,7 @@ const Projects = () => {
       {
         type: "AR",
         name: "Noble Pharma App",
-        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/splashscreen.PNG",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/noble_pharma_cover.PNG",
         icon: "ar",
       },
       {
