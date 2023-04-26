@@ -57,7 +57,7 @@ const Detail = () => {
       <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
         <video 
           controls
-          poster="/images/thumnails/chemical-thumb.PNG"
+          poster="https://toggletechlab.s3.us-east-2.amazonaws.com/ChemicalEngineeringSimulation/chemical_engg_game-thumbnail.PNG"
           className="cursor-pointer"
         >
           <source 
