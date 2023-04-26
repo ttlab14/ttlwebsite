@@ -1,3 +1,5 @@
+export default Hero
+
 import React from "react"
 
 const Hero = () => {
@@ -5,12 +7,12 @@ const Hero = () => {
     <div className="relative">
       <img
         className="w-full hidden sm:block"
-        src="/images/PortfolioDetails/Hero.png"
+        src="https://toggletechlab.s3.us-east-2.amazonaws.com/Mobile/Hero-min.png"
         alt=""
       />
       <img
         className="w-full sm:hidden"
-        src="/images/PortfolioDetails/HeroMobile.png"
+        src="https://toggletechlab.s3.us-east-2.amazonaws.com/Mobile/Hero+Mobile.png"
         alt=""
       />
       <div className="absolute top-1/3 mt-8 w-full">
