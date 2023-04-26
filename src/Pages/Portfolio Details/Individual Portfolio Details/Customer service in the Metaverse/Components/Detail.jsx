@@ -57,7 +57,7 @@ developers for making it possible!
         <div className="flex sm:flex-row flex-col gap-5 items-center my-5">
         <video 
           controls
-          poster="/images/thumnails/customer-thumb.PNG"
+          poster="https://toggletechlab.s3.us-east-2.amazonaws.com/CustomerServiceMetaverse/decentraland_metaverse_thumbnail.PNG"
           className="cursor-pointer"
         >
           <source 
