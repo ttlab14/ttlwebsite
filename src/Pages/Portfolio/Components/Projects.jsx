@@ -156,13 +156,13 @@ const Projects = () => {
       {
         type: "AR",
         name: "Inverse Surveillance",
-        img: "/images/Portfolio/AR/inverse.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/InverseSurveillance+/is_cover-min.PNG",
         icon: "ar",
       },
       {
         type: "Training",
         name: "Immersive Mind",
-        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/InverseSurveillance+/is_cover-min.PNG",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/ImmersiveMind/immersivemind-min.png",
         icon: "vr",
       },
     ],
