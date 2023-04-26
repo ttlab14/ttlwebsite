@@ -15,7 +15,7 @@ const Hero = () => {
       />
       <div className="absolute top-1/3 mt-8 w-full">
         <h1 className="w-11/12  md:w-3/4 mx-auto text-2xl md:text-4xl text-white">
-          360 Degree Music Video
+          Chemical Engineering Simulation
           <br />
         </h1>
       </div>
