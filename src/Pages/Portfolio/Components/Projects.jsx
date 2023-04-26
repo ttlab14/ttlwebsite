@@ -34,7 +34,7 @@ const Projects = () => {
       {
         type: "Immersive Enviornments",
         name: "EcoPod",
-        img: "/images/Portfolio/Immersive_Env/ecopod1.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/EcoPod/ecopod1.jpeg",
         icon: "vr",
       },
       {
