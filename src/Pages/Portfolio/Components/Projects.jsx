@@ -130,7 +130,7 @@ const Projects = () => {
     {
       type: "AI",
       name: "Waajoo Africa Metaverse Prototype",
-      img: "/images/Portfolio/AI/waajoo.png",
+      img: "",
       icon: "metaverse",
     },
 */
