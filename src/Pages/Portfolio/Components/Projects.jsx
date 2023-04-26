@@ -54,7 +54,7 @@ const Projects = () => {
       {
         type: "Training",
         name: "Teaching Solar Energy Systems Design using Game-Based Virtual Reality",
-        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar1.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar2.PNG",
         icon: "vr",
       },
 
