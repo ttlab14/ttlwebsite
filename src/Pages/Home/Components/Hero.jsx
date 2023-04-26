@@ -17,7 +17,7 @@ const Hero = ({handleClickScroll, handleHeaderVideo}) => {
         />
       </video>
       <img 
-        src="/images/mobile-header.png"
+        src="https://toggletechlab.s3.us-east-2.amazonaws.com/Mobile/mobile-header-min.png"
         alt="mobile-header"
         className="w-screen h-screen sm:hidden block object-cover" 
       />
