@@ -40,7 +40,7 @@ const Projects = () => {
       {
         type: "Immersive Enviornments",
         name: "360 degree music video",
-        img: "/images/Portfolio/Immersive_Env/360music.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/360degvideo/360degmusicvideo.jpg",
         icon: "vr",
       },
 
@@ -48,20 +48,20 @@ const Projects = () => {
       {
         type: "Training",
         name: "Learn the Sign Language in VR",
-        img: "/images/Portfolio/Training/alphabet.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/SignLanguageVR/signlang1.PNG",
         icon: "vr",
       },
       {
         type: "Training",
         name: "Teaching Solar Energy Systems Design using Game-Based Virtual Reality",
-        img: "/images/Portfolio/Training/solar.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/SolarPanel/solar1.png",
         icon: "vr",
       },
 
       {
         type: "Training",
         name: "Chemical Engineering Simulation",
-        img: "/images/Portfolio/Games/engineering.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/ChemicalEngineeringSimulation/cover_chemengg.PNG",
         icon: "vr",
       },
       //medical
@@ -69,25 +69,25 @@ const Projects = () => {
       {
         type: "Medical Simulations",
         name: "Providing Comprehensive Therapy For Children With Autism Spectrum Disorder",
-        img: "/images/Portfolio/Medical/ASU.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/ASU/ASU1.PNG",
         icon: "vr",
       },
       {
         type: "Medical Simulations",
         name: "Body walkthrough in VR",
-        img: "/images/Portfolio/Medical/UE_MedicalWalkthrough.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/BodyWalkThrough/bodywalkthrough3.PNG",
         icon: "vr",
       },
       {
         type: "Medical Simulations",
         name: "Noble Pharma App",
-        img: "/images/Portfolio/Medical/noble.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/splashscreen.PNG",
         icon: "vr",
       },
       {
         type: "Medical Simulations",
         name: "RN Training",
-        img: "/images/Portfolio/Medical/VRRN.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/VRRN/vrrn2.jpg",
         icon: "vr",
       },
 
@@ -96,26 +96,26 @@ const Projects = () => {
       {
         type: "Brand Activations",
         name: "The ART Room - Ukraine",
-        img: "/images/Portfolio/AR/ukraine_ar.jpeg",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art2.PNG",
         icon: "vr",
       },
       //games
       {
         type: "Games",
         name: "Chester Cheetos",
-        img: "/images/Portfolio/Games/chester.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/CarnivalChester/cover-min.PNG",
         icon: "games",
       },
       {
         type: "Games",
         name: "Police Simulator",
-        img: "/images/Portfolio/Games/policesim.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/pcover-min.PNG",
         icon: "games",
       },
       {
         type: "Games",
         name: "Chemical Engineering Simulation",
-        img: "/images/Portfolio/Games/engineering.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/ChemicalEngineeringSimulation/cover_chemengg.PNG",
         icon: "games",
       },
 
@@ -123,7 +123,7 @@ const Projects = () => {
       {
         type: "AI",
         name: "Customer service in the Metaverse",
-        img: "/images/Portfolio/AI/DCL_voctiv.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/CustomerServiceMetaverse/decentraland_metaverse_thumbnail.PNG",
         icon: "metaverse",
       },
       /*
@@ -138,19 +138,19 @@ const Projects = () => {
       {
         type: "AR",
         name: "Sprint AR",
-        img: "/images/Portfolio/AR/sprintAR.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprintarlogo.png",
         icon: "ar",
       },
       {
         type: "AR",
         name: "Noble Pharma App",
-        img: "/images/Portfolio/Medical/noble.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/Noble/splashscreen.PNG",
         icon: "ar",
       },
       {
         type: "AR",
         name: "The ART Room - Ukraine",
-        img: "/images/Portfolio/AR/ukraine_ar.jpeg",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/ArtStudio/art2.PNG",
         icon: "ar",
       },
       {
@@ -162,7 +162,7 @@ const Projects = () => {
       {
         type: "Training",
         name: "Immersive Mind",
-        img: "/images/Portfolio/Training/immersivemind.png",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/InverseSurveillance+/is_cover-min.PNG",
         icon: "vr",
       },
     ],
