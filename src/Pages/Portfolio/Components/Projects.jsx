@@ -138,7 +138,7 @@ const Projects = () => {
       {
         type: "AR",
         name: "Sprint AR",
-        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprintAR_cover.PNG",
+        img: "https://toggletechlab.s3.us-east-2.amazonaws.com/SprintAR/sprint_AR_cover.jpg",
         icon: "ar",
       },
       {
