@@ -75,7 +75,7 @@ const Detail = () => {
         <div className="flex sm:flex-row flex-col sm:gap-3 gap-2 items-center sm:my-3 my-2">
           <video 
             controls
-            poster="/images/thumnails/police-thumb.PNG"
+            poster="https://toggletechlab.s3.us-east-2.amazonaws.com/PoliceSimulator+/police_simulator_game_thumbnail.PNG"
             className="cursor-pointer"
           >
             <source 
