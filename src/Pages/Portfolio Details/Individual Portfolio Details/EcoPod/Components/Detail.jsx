@@ -72,7 +72,7 @@ const Detail = () => {
             <div className="flex sm:flex-row flex-col items-center gap-5 w-full h-full">
               <video 
                 controls
-                poster="/images/thumnails/ecopod-thumb1.PNG"
+                poster="https://toggletechlab.s3.us-east-2.amazonaws.com/EcoPod/ocean_builders_thumbnail_1.PNG"
                 className="cursor-pointer sm:w-1/2 w-9/12 h-full object-contain"
               >
                 <source 
@@ -82,7 +82,7 @@ const Detail = () => {
               </video>
               <video 
                 controls
-                poster="/images/thumnails/ecopod-thumb2.PNG"
+                poster="https://toggletechlab.s3.us-east-2.amazonaws.com/EcoPod/ocean_builders_thumbnail_2.PNG"
                 className="cursor-pointer sm:w-1/2 w-9/12 h-full object-contain"
               >
                 <source 
@@ -94,7 +94,7 @@ const Detail = () => {
             <div className="flex sm:flex-row flex-col items-center w-full h-full">
               <video 
                 controls
-                poster="/images/thumnails/ecopod-thumb3.PNG" 
+                poster="https://toggletechlab.s3.us-east-2.amazonaws.com/EcoPod/ocean_builders_thumbnail_3.PNG" 
                 className="cursor-pointer sm:w-1/2 w-9/12 h-1/2 object-contain"
               >
                 <source 
@@ -123,7 +123,7 @@ const Detail = () => {
           <video 
             controls
             className="cursor-pointer"
-            poster="/images/thumnails/ecopod-thumb4.PNG"
+            poster="https://toggletechlab.s3.us-east-2.amazonaws.com/EcoPod/ocean_builders_thumbnail_4.PNG"
           >
             <source 
               src="https://toggletechlab.s3.us-east-2.amazonaws.com/EcoPod/ecopodvr.mp4" 
