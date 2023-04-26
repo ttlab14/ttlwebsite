@@ -7,7 +7,7 @@ const HeaderVideo = () => {
         autoPlay
         controls
         loop
-        poster="/images/thumnails/headerVideo-thumb.PNG"
+        poster="https://toggletechlab.s3.us-east-2.amazonaws.com/Mobile/headerVideo-thumb-min.PNG"
       >
         <source 
           src="https://toggletechlab.s3.us-east-2.amazonaws.com/header_video.mp4" 
