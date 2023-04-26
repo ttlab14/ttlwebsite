@@ -8,7 +8,7 @@ const Detail = () => {
         <div className="w-full sm:h-72 lg:h-96  2xl:h-100  3xl:h-110">
           <img
             className="w-full h-full object-contain"
-            src="/images/PortfolioDetails/Waajoo/waajoo.png"
+            src=""
             alt=""
           />
         </div>
@@ -42,13 +42,13 @@ const Detail = () => {
         <div className="flex sm:flex-row flex-col gap-5 items-center">
           <img
             className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-            src="/images/PortfolioDetails/Waajoo/waajoo1.png"
+            src=""
             alt=""
             style={{ width: "46.5%" }}
           />
           <img
             className="lg:w-7/12 sm:w-6/12 xs:w-9/12 h-full object-contain"
-            src="/images/PortfolioDetails/Waajoo/waajoo1a.png"
+            src=""
             alt=""
             style={{ width: "50%" }}
           />
