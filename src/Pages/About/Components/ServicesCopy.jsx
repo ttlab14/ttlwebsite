@@ -15,7 +15,7 @@ const ServicesCopy = () => {
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl">
           <div className=" py-10 px-8">
-            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-3.svg" alt="" />
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-3.svg" alt="Toggle Tech Lab VR AR" />
             <h1 className="text-white text-xl my-4">
               Flexible and personal, like a great freelancer
             </h1>
@@ -26,7 +26,7 @@ const ServicesCopy = () => {
         </div>
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl">
           <div className="py-10 px-8">
-            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-3.svg" alt="" />
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-3.svg" alt="Toggle Tech Lab VR AR" />
             <h1 className="text-white text-xl my-4">
               The reliable expertise of an agency
             </h1>
@@ -37,7 +37,7 @@ const ServicesCopy = () => {
         </div>
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl">
           <div className="py-10 px-8">
-            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-3.svg" alt="" />
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-3.svg" alt="Toggle Tech Lab VR AR" />
             <h1 className="text-white text-xl my-4">
               Focused on business growth
             </h1>
