@@ -48,12 +48,12 @@ import React from "react"
 
 const Detail = () => {
   return (
-    <div className="w-11/12  md:w-3/4 mx-auto mt-20">
+    <div className="w-11/12  md:w-3/4 mx-auto">
       <h1 className="text-white text-xl md:text-2xl mb-8">What We Do</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 md:mb-16">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl ">
           <div className="py-10 px-8">
-            <img className="w-14 h-14" src="/icons/Why-Choose-1.svg" alt="" />
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-1.svg" alt="" />
             <h1 className="text-white text-xl my-4">
               Strategic Consulting, and Development for XR Technologies
             </h1>
@@ -66,7 +66,7 @@ const Detail = () => {
         </div>
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl">
           <div className="py-10 px-8">
-            <img className="w-14 h-14" src="/icons/Why-Choose-2.svg" alt="" />
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-2.svg" alt="" />
             <h1 className="text-white text-xl my-4">
               Application Development for VR HMD Platforms
             </h1>
@@ -77,7 +77,7 @@ const Detail = () => {
         </div>
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl">
           <div className="py-10 px-8">
-            <img className="w-14 h-14" src="/icons/Why-Choose-3.svg" alt="" />
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-3.svg" alt="" />
             <h1 className="text-white text-xl my-4">
               Camera AR Lens and Photo Filters
             </h1>
@@ -99,15 +99,15 @@ const Detail = () => {
           </div>
         </div>
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl ">
-          <div className="py-10 px-8">
-            <img className="w-14 h-14" src="/icons/Why-Choose-4.svg" alt="" />
+          <div className="py-10 px-8 ">
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-4.svg" alt="" />
             <h1 className="text-white text-xl my-4">Mobile AR</h1>
             <p className="text-grey text-base md:text-lg">
               iOS ARKit, Android ARCore and AR Foundation
             </p>
             <ul className="list-disc ml-6 text-base md:text-lg">
               <li className="mt-2 text-gold">
-                <div className="text-grey">Experential AR andAR training</div>
+                <div className="text-grey">Experential AR and AR training</div>
               </li>
               <li className="mt-2 text-gold">
                 <div className="text-grey">
@@ -119,7 +119,7 @@ const Detail = () => {
         </div>
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl ">
           <div className="py-10 px-8">
-            <img className="w-14 h-14" src="/icons/Why-Choose-5.svg" alt="" />
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-5.svg" alt="" />
             <h1 className="text-white text-xl my-4">
               360º Content Creation Videos
             </h1>
@@ -131,7 +131,7 @@ const Detail = () => {
         </div>
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl">
           <div className="py-10 px-8">
-            <img className="w-14 h-14" src="/icons/Why-Choose-6.svg" alt="" />
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-6.svg" alt="" />
             <h1 className="text-white text-xl my-4">Haptics</h1>
             <p className="text-grey text-base md:text-lg">
               We work with Haptics and sensors
@@ -141,7 +141,7 @@ const Detail = () => {
 
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl">
           <div className="py-10 px-8">
-            <img className="w-14 h-14" src="/icons/Why-Choose-3.svg" alt="" />
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-3.svg" alt="" />
             <h1 className="text-white text-xl my-4">2D and 3D Games</h1>
             <p className="text-grey text-base md:text-lg">
               Company engagement and Brand recognition games
@@ -160,7 +160,7 @@ const Detail = () => {
         </div>
         <div className="bg-gradient-to-br from-card-bg to-transparent rounded-2xl">
           <div className="py-10 px-8">
-            <img className="w-14 h-14" src="/icons/Why-Choose-7.svg" alt="" />
+            <img className="w-14 h-14" src="https://toggletechlab.s3.us-east-2.amazonaws.com/Icons/Why+Choose-7.svg" alt="" />
             <h1 className="text-white text-xl my-4">3D Design and Modelling</h1>
             <p className="text-grey text-base md:text-lg">
               Blender, 3ds Max and Cinema4D
@@ -179,7 +179,13 @@ const Detail = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
+  
+  
+  
+  
+  
+ 
 
 export default Detail
