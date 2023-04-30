@@ -14,25 +14,21 @@ const ProptypeProduct = () => {
             Prototypes And Products That Get It
           </h1>
           <p className="text-grey text-base md:text-lg mb-4">
-          Introducing our innovative company, AR/VR Funding Solutions. We specialize in helping startups secure funding through the use of cutting-edge AR/VR proof of concepts.
-</p>
-<p className="text-grey text-base md:text-lg mb-4">
-We understand that startups often struggle to secure funding due to the lack of tangible proof of their product or service. That's where we come in. Using our expertise in AR/VR technology, we create immersive and interactive proof of concepts that bring your startup's vision to life.
-</p>
-<p className="text-grey text-base md:text-lg mb-4">
-Our team of experienced developers, designers, and investors work closely with you to ensure that your proof of concept effectively showcases the potential of your product or service. We then leverage our extensive network of investors to connect you with the right people to fund your startup.
-</p>
-<p className="text-grey text-base md:text-lg mb-4">
-Our proven track record speaks for itself. We have helped numerous startups secure funding and turn their ideas into reality. With AR/VR Funding Solutions, you can rest assured that you are in good hands.
-</p>          
+Looking for XR solutions provider for your startup or SME? Look no further than our company, AR/VR Funding Solutions. We specialize in providing affordable XR development services, including augmented reality development, virtual reality development, and rapid prototyping XR.</p>
+
+    <p className="text-grey text-base md:text-lg mb-4">
+Our extended reality services also include custom AR/VR solutions, mixed reality development, immersive technology solutions, and holographic experiences. We can help you develop XR prototypes and provide XR solutions for investor presentations, training and education, health tech, corporate real estate, and edutech.</p>
+
+    <p className="text-grey text-base md:text-lg mb-4">
+As an XR solutions provider, we offer XR app development, as well as XR training solutions. Our innovative company is dedicated to helping startups secure funding through the use of cutting-edge AR/VR proof of concepts. We understand that startups often struggle to secure funding due to the lack of tangible proof of their product or service.</p>
+
+    <p className="text-grey text-base md:text-lg mb-4">
+That's why we create immersive and interactive proof of concepts that bring your startup's vision to life. Our team of experienced developers, designers, and investors work closely with you to ensure that your proof of concept effectively showcases the potential of your product or service. We then leverage our extensive network of investors to connect you with the right people to fund your startup.</p>          
 <p className="text-grey text-base md:text-lg mb-4">
 Don't let a lack of funding hold your startup back. Contact us today to learn how our AR/VR proof of concepts can help you secure the funding you need to succeed.
           </p>
           <p className="text-grey text-base md:text-lg mb-4">
-          When you partner with us, you'll gain access to our expertise and know-how,
-           ensuring that your project is executed with precision and excellence.
-            Let us show you the power of virtual and augmented reality - join us today and 
-            experience the difference for yourself!
+        With our proven track record, you can trust that we will help you turn your ideas into reality. Don't let a lack of funding hold your startup back. Contact us today to learn how our XR solutions can help you secure the funding you need to succeed.
           </p>
 
           <div className="grid grid-cols-2 gap-12 items-center my-12">
