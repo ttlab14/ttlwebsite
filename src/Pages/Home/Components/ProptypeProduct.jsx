@@ -9,7 +9,7 @@ const ProptypeProduct = () => {
           <img src="https://toggletechlab.s3.us-east-2.amazonaws.com/PageAssets/2nd+Section-min.png" alt="" />
         </div>
         <div className="md:w-11/12">
-          <h1 className="text-gold text-base uppercase mb-2">About Us</h1>
+          <h1 className="text-gold text-base uppercase mb-2">Augmented reality development Virtual reality development</h1>
           <h1 className="text-white text-xl md:text-2xl mb-8">
             Prototypes And Products That Get It
           </h1>
