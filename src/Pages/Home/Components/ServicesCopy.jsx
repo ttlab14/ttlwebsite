@@ -6,7 +6,7 @@ const ServicesCopy = () => {
       <div className="w-11/12  md:w-3/4 mx-auto my-20">
       <h1 className="text-gold text-base uppercase mb-4">Reasons to choose us?</h1>
       <div className="md:flex justify-between items-center  mb-8">
-        <h1 className="text-white text-xl md:text-2xl">Why work with Toggle Tech?</h1>
+        <h1 className="text-white text-xl md:text-2xl">Why work with Toggle Tech Lab?</h1>
 
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
