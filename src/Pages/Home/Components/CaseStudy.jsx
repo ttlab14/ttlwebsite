@@ -47,9 +47,8 @@ const CaseStudy = () => {
       <h1 className="text-gold text-base uppercase mb-4">Case Study</h1>
       <div className="md:flex justify-between items-center  mb-8">
         <h1 className="text-white text-xl md:text-2xl">
-         Augmented reality development Virtual reality development
-    </h1>
-          <h3 className="text-gold text-base uppercase mb-4"> Our Work Speaks For Itself </h3>
+         AR & VR
+         </br> Work </h1>
         <Link to="/service">
         <button className="text-gold text-base md:text-lg border-2 border-gray-400 rounded-3xl py-2 px-5 mt-4">
           View All Services
