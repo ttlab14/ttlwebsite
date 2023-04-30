@@ -16,9 +16,9 @@ const Detail = () => {
           />
         </div>
         <p className="text-grey text-base md:text-lg mt-6">
-          Virtual tour of an Ecopod made for  OceanBuilders with our agency partner Top Innovation
-          Lab in Panama.  In the words of OceanBuilders, Ecopods are high tech floating *homes*
-          in the shape of Pods. They are futuristic & allows you to Live Just Above the Waves
+          Virtual tour of an Ecopod made for OceanBuilders with our agency partner Top Innovation
+          Lab in Panama.  In the words of OceanBuilders, Ecopods are high tech floating homes
+          in the shape of Pods. They are futuristic & allow you to Live Just Above the Waves.
         </p>
         <p className="text-grey text-base md:text-lg mt-6">
           On February 3th, 2019 we made history. We successfully launched a full
