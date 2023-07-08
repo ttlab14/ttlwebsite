@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@font-face {
+    font-family: 'Dual';
+    src: local('Dual'), url( ../Fonts/Dual.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url( ../Fonts/Montserrat.ttf) format('ttf');
+  }
+@tailwind utilities;
+
+::-webkit-scrollbar-thumb {
+  background-color: #404040;
+  border-radius: 25px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
