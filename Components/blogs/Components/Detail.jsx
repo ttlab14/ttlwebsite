@@ -4,7 +4,7 @@ const Detail = ({ Blog }) => {
   return (
     <div>
       {Blog.detail.map((item) => (
-        <div className="mb-16">
+        <div className="mb-16" key={item._id}>
           <h1 className="text-white text-xl md:text-2xl mb-8 leading-[48px]">
             {item.subTitle}
           </h1>
