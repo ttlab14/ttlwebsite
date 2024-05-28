@@ -19,6 +19,18 @@ const Team = () => {
             Founder / CEO
           </p>
         </div>
+ <div className="w-32 h-32  md:w-52 md:h-52 rounded-full overflow-hidden">
+            <img
+              src="https://toggletechlab.s3.us-east-2.amazonaws.com/Team/IMG_1177.jpg"
+              alt="Toggle Tech Lab Team"
+            />
+          </div>
+          <h1 className="text-white text-xl mt-4 mb-1 text-center">
+Jannat          </h1>
+          <p className="text-gold text-base md:text-lg text-center">
+Director          </p>
+        </div>
+        
         <div className="flex flex-col items-center md:justify-center mb-12">
           <div className="w-32 h-32  md:w-52 md:h-52 rounded-full overflow-hidden">
             <img
