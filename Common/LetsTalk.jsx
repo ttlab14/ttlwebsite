@@ -9,7 +9,7 @@ const LetsTalk = () => {
       </div>
       <div className="lg:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-12 text-white mt-8">
         <div>
-          <h1 className="text-xl mb-3 ">Office (Canada)</h1>
+          <h1 className="text-xl mb-3 ">Canada</h1>
           <div className="flex items-start">
             <img
               className="mr-2"
