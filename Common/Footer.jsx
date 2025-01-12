@@ -53,7 +53,7 @@ const Footer = () => {
       </div>
       <div>
         <p className="mt-2 lg:mt-0">
-          Copyright 2017-2023 Let's JavaScript Corp.
+         // Copyright 2017-2023 Let's JavaScript Corp.
         </p>
       </div>
     </div>
