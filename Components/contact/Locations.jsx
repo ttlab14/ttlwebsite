@@ -21,15 +21,7 @@ const Locations = () => {
           </p>
         </div>
       </div>
-      <div className="mb-8">
-        <h1 className="text-white text-xl mb-3">Qatar</h1>
-        <div className="flex items-start">
-          <img className="mr-2" src="/icons/location.svg" alt="" />
-          <p className="text-grey text-base md:text-lg">
-            Al Mana Business Centre 02, Doha, Qatar
-          </p>
-        </div>
-      </div>
+     
       <div className="mb-8">
         <h1 className="text-white text-xl mb-3">Social Media</h1>
         <div className="flex">
