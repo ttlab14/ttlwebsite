@@ -1,4 +1,4 @@
-
+{/*
 import React from "react";
 
 const Team = () => {
@@ -114,3 +114,4 @@ Jannat          </h1>
 };
 
 export default Team;
+*/}
