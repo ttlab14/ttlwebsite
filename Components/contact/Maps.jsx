@@ -24,16 +24,7 @@ const Maps = () => {
           />
         </div>
       </div>
-      <div className="lg:mt-8 2xl:pt-24">
-        <p className="text-white pt-10 text-xl mb-8">Qatar</p>
-        <div className=" lg:h-64">
-          <img
-            className="h-40 md:h-auto"
-            src="https://toggletechlab.s3.us-east-2.amazonaws.com/Contact/Map3.png"
-            alt=""
-          />
-        </div>
-      </div>
+     
     </div>
   );
 };
