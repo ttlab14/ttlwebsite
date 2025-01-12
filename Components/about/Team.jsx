@@ -5,9 +5,19 @@ const Team = () => {
   return (
       <h1 className="text-white text-xl md:text-2xl mb-8">Our Team</h1>
      
-     <p className="text-grey text-base md:text-lg">
-           Our team is a dynamic blend of skilled professionals, including two operational managers, talented designers, developers, machine learning engineers, and UX/UI experts. We work collaboratively to deliver innovative and effective solutions that cater to our clients' unique needs. With a strong focus on design excellence, cutting-edge technology, and seamless user experiences, our team is dedicated to driving success and creating impactful results in every project we undertake.
+        <div className="md:w-11/12">
+         
+          <p className="text-grey text-base md:text-lg">
+            Welcome to Toggle Tech Lab XR solutions, your go-to XR solutions
+            provider for all your business needs. Our expert team specializes in
+            Augmented reality development, Virtual reality development, and
+            Mixed reality development to cater to a wide range of industries,
+            including but not limited to, health tech, corporate real estate,
+            and edutech.
           </p>
+        
+        </div>
+   
   
     
   );
